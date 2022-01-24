@@ -5,6 +5,7 @@ import * as Constants from "./constants.js"
 import { ChampionStage } from "./components/ChampionStage.js"
 import { ChampionTile } from "./components/ChampionTile.js"
 import { KeybindMenu } from "./components/KeybindMenu.js"
+import { ChampionMenu } from "./components/ChampionMenu.js"
 import { BuyXPButton } from "./components/BuyXPButton.js"
 import { RefreshButton } from "./components/RefreshButton.js"
 import { RerollOdds } from "./components/RerollOdds.js"
@@ -40,7 +41,7 @@ export default class App extends React.Component {
       });
     }
     let myStage = {};
-    for(let i = 0; i < 9; i++) {
+    for(let i = 0; i < 18; i++) {
       myStage[i] = {
         name: "",
         cost: 0,
@@ -58,12 +59,14 @@ export default class App extends React.Component {
       hovered: [],
       dragging: false,
       heldChamp: null,
-      keybindMenuHidden: true
+      keybindMenuHidden: true,
+      championMenuHidden: true
     };
 
     this.handleKeyPress = this.handleKeyPress.bind(this);
     this.handleGoldInput = this.handleGoldInput.bind(this);
     this.handleLvlInput = this.handleLvlInput.bind(this);
+    
   }
 
   //==Keyboard Input Handling==//
@@ -102,7 +105,9 @@ export default class App extends React.Component {
   //==Stage Champion Handling==//
 
   handleChampMouseOver(i) {
+    console.log("hovering")
     let myHovered = this.state.hovered;
+    console.log(myHovered)
     if(myHovered.includes(i)) return;
 
     myHovered.push(i);
@@ -223,6 +228,20 @@ export default class App extends React.Component {
 
   //==Helper Functions==//
 
+  checkThreeStars(myStage){
+      let threeStars = [];
+      for(let i = 0; i < 18; i++){
+        let champ = myStage[i];
+        if (champ.level >= 3){
+          threeStars.push(champ.name);
+        }
+      }
+      if(threeStars.length > 0){
+        console.log(threeStars[0])
+      }
+      return threeStars
+  }
+
   // Reroll all shop elements
   rerollAll() {
     let myStore = this.state['store'];
@@ -232,7 +251,14 @@ export default class App extends React.Component {
       if(champName !== "") {
         Constants.championPool[champCost].push(myStore[i]);
       }
+      let myStage = this.state['stage'];
+      // let threeStars = this.checkThreeStars(myStage);
+      
       let champRolled = this.reroll(this.state.level);
+      // while (threeStars.includes(champRolled['name'])){
+      //   champRolled = this.reroll(this.state.level);
+      // }
+
       myStore[i] = {
         name: champRolled['name'],
         cost: champRolled['cost'],
@@ -275,7 +301,7 @@ export default class App extends React.Component {
     const champTraits = myStore[i]['traits'];
 
     // If we can buy enough copies to make an upgrade, do so
-    if(myStageLength === 9) {
+    if(myStageLength === 18) {
       this.checkForOverflowCombine(i, myStageLength);
       return;
     }
@@ -290,7 +316,7 @@ export default class App extends React.Component {
       cost: 0,
       traits: []
     };
-    for(let j = 0; j < 9; j++) {
+    for(let j = 0; j < 18; j++) {
       if(myStage[j]['name'] === "") {
         myStage[j] = {
           name: champName,
@@ -359,7 +385,7 @@ export default class App extends React.Component {
       3: [],
     }
     let myStage = this.state['stage'];
-    for(let i = 0; i < 9; i++) {
+    for(let i = 0; i < 18; i++) {
       let champion = myStage[i];
       if(champion['name'] === champName) {
         let champLevel = champion['level'];
@@ -406,7 +432,7 @@ export default class App extends React.Component {
         storeCount++;
       }
     }
-    for(let j = 0; j < 9; j++) {
+    for(let j = 0; j < 18; j++) {
       if(myStage[j]['name'] === champName && myStage[j]['level'] === 1) {
         stageCount++;
       }
@@ -434,7 +460,7 @@ export default class App extends React.Component {
 
       let newChampLevel;
       var upgraded = false;
-      for(let j = 0; j < 9; j++) {
+      for(let j = 0; j < 18; j++) {
         if(myStage[j]['name'] === champName && myStage[j]['level'] === 1) {
           if(!upgraded) {
             myStage[j]['level']++;
@@ -469,6 +495,8 @@ export default class App extends React.Component {
 
   render() {
     const level = this.state['level'];
+    console.log("this state hovered");
+    console.log(this.state.hovered);
     const xp_text = (level === 9) ? "Max" : this.state['xp'] + "/" + Constants.XP_THRESH[level];
     const heldChamp = this.state.stage[this.state.heldChamp];
     const sellCost = (heldChamp && heldChamp['name'] !== "") ? Constants.SELL_RATE[heldChamp['cost']][heldChamp['level'] - 1] : 0;
@@ -532,6 +560,8 @@ export default class App extends React.Component {
           <SellChampButton
             onClick={() => this.sellChamp(this.state.heldChamp)}
             sellCost={sellCost}/>
+          <ChampionMenu
+            hidden={this.state.keybindMenuHidden}/>
           <KeybindMenu
             hidden={this.state.keybindMenuHidden}/>
         </div>

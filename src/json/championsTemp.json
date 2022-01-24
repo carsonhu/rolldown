@@ -1,0 +1,528 @@
+
+  {
+    "name": "Akali",
+    "championId": "TFT5_Akali",
+    "cost": 5,
+    "traits": [
+        "Syndicate",
+        "Assassin"
+    ]
+  },
+  {
+    "name": "Blitzcrank",
+    "championId": "TFT5_Blitzcrank",
+    "cost": 2,
+    "traits": [
+        "Scrap",
+        "Bodyguard",
+        "Protector"
+    ]
+  },
+  {
+    "name": "Braum",
+    "championId": "TFT5_Braum",
+    "cost": 4,
+    "traits": [
+        "Celestial",
+        "Sniper"
+    ]
+  },
+  {
+    "name": "Caitlyn",
+    "championId": "TFT5_Caitlyn",
+    "cost": 1,
+    "traits": [
+        "Rebel",
+        "Starship"
+    ]
+  },
+  {
+    "name": "Camille",
+    "championId": "TFT5_Camille",
+    "cost": 1,
+    "traits": [
+        "Chrono",
+        "Brawler"
+    ]
+  },
+  {
+    "name": "ChoGath",
+    "championId": "TFT5_ChoGath",
+    "cost": 3,
+    "traits": [
+        "Chrono",
+        "Sniper"
+    ]
+  },
+  {
+    "name": "Darius",
+    "championId": "TFT5_Darius",
+    "cost": 1,
+    "traits": [
+        "Void",
+        "Brawler"
+    ]
+  },
+  {
+    "name": "DrMundo",
+    "championId": "TFT5_DrMundo",
+    "cost": 4,
+    "traits": [
+        "Space Pirate",
+        "Mana-Reaver"
+    ]
+  },
+  {
+    "name": "Ekko",
+    "championId": "TFT5_Ekko",
+    "cost": 3,
+    "traits": [
+        "Cybernetic",
+        "Infiltrato"
+    ]
+  },
+  {
+    "name": "Ezreal",
+    "championId": "TFT5_Ezreal",
+    "cost": 1,
+    "traits": [
+        "Chrono",
+        "Blaster"
+    ]
+  },
+  {
+    "name": "Fiora",
+    "championId": "TFT5_Fiora",
+    "cost": 4,
+    "traits": [
+        "Cybernetic",
+        "Blademaster"
+    ]
+  },
+  {
+    "name": "Galio",
+    "championId": "TFT5_Galio",
+    "cost": 5,
+    "traits": [
+        "Mech-Pilot",
+        "Infiltrator"
+    ]
+  },
+  {
+    "name": "Gangplank",
+    "championId": "TFT5_Gangplank",
+    "cost": 3,
+    "traits": [
+        "Space Pirate",
+        "Mercenary",
+        "Demolitionist"
+    ]
+  },
+  {
+    "name": "Garen",
+    "championId": "TFT5_Garen",
+    "cost": 1,
+    "traits": [
+        "Space Pirate",
+        "Blaster"
+    ]
+  },
+  {
+    "name": "Graves",
+    "championId": "TFT5_Graves",
+    "cost": 1,
+    "traits": [
+        "Cybernetic",
+        "Mana-Reaver",
+        "Blademaster"
+    ]
+  },
+  {
+    "name": "Heimerdinger",
+    "championId": "TFT5_Heimerdinger",
+    "cost": 3,
+    "traits": [
+        "Dark Star",
+        "Protector"
+    ]
+  },
+  {
+    "name": "Illaoi",
+    "championId": "TFT5_Illaoi",
+    "cost": 1,
+    "traits": [
+        "Space Pirate",
+        "Vanguard"
+    ]
+  },
+  {
+    "name": "Janna",
+    "championId": "TFT5_Janna",
+    "cost": 4,
+    "traits": [
+        "Dark Star",
+        "Sniper"
+    ]
+  },
+  {
+    "name": "Jayce",
+    "championId": "TFT5_Jayce",
+    "cost": 5,
+    "traits": [
+        "Rebel",
+        "Blaster"
+    ]
+  },
+  {
+    "name": "Jhin",
+    "championId": "TFT5_Jhin",
+    "cost": 4,
+    "traits": [
+        "Valkyrie",
+        "Infiltrator"
+    ]
+  },
+  {
+    "name": "Jinx",
+    "championId": "TFT5_Jinx",
+    "cost": 5,
+    "traits": [
+        "Dark Star",
+        "Mystic"
+    ]
+  },
+  {
+    "name": "Kai'sa",
+    "championId": "TFT5_Kaisa",
+    "cost": 5,
+    "traits": [
+        "Celestial",
+        "Mana-Reaver"
+    ]
+  },
+  {
+    "name": "Kassadin",
+    "championId": "TFT5_Kassadin",
+    "cost": 1,
+    "traits": [
+        "Valkyrie",
+        "Blademaster"
+    ]
+  },
+  {
+    "name": "Katarina",
+    "championId": "TFT5_Katarina",
+    "cost": 2,
+    "traits": [
+        "Void",
+        "Infiltrator"
+    ]
+  },
+  {
+    "name": "KogMaw",
+    "championId": "TFT5_KogMaw",
+    "cost": 2,
+    "traits": [
+        "Cybernetic",
+        "Vanguard"
+    ]
+  },
+  {
+    "name": "Leona",
+    "championId": "TFT5_Leona",
+    "cost": 3,
+    "traits": [
+        "Cybernetic",
+        "Blaster"
+    ]
+  },
+  {
+    "name": "Lulu",
+    "championId": "TFT5_Lulu",
+    "cost": 2,
+    "traits": [
+        "Celestial",
+        "Mystic"
+    ]
+  },
+  {
+    "name": "Lux",
+    "championId": "TFT5_Lux",
+    "cost": 4,
+    "traits": [
+        "Dark Star",
+        "Sorcerer"
+    ]
+  },
+  {
+    "name": "Malzahar",
+    "championId": "TFT5_Malzahar",
+    "cost": 3,
+    "traits": [
+        "Rebel",
+        "Brawler"
+    ]
+  },
+  {
+    "name": "Miss Fortune",
+    "championId": "TFT5_MissFortune",
+    "cost": 3,
+    "traits": [
+        "Rebel",
+        "Blademaster"
+    ]
+  },
+  {
+    "name": "Orianna",
+    "championId": "TFT5_Orianna",
+    "cost": 4,
+    "traits": [
+        "Valkyrie",
+        "Mercenary",
+        "Blaster"
+    ]
+  },
+  {
+    "name": "Poppy",
+    "championId": "TFT5_Poppy",
+    "cost": 1,
+    "traits": [
+        "Dark Star",
+        "Vanguard"
+    ]
+  },
+  {
+    "name": "Quinn",
+    "championId": "TFT5_Quinn",
+    "cost": 2,
+    "traits": [
+        "Star Guardian",
+        "Protector"
+    ]
+  },
+  {
+    "name": "Samira",
+    "championId": "TFT5_Samira",
+    "cost": 3,
+    "traits": [
+        "Star Guardian",
+        "Vanguard"
+    ]
+  },
+  {
+    "name": "Seraphine",
+    "championId": "TFT5_Seraphine",
+    "cost": 4,
+    "traits": [
+        "Celestial",
+        "Protector"
+    ]
+  },
+  {
+    "name": "Shaco",
+    "championId": "TFT5_Shaco",
+    "cost": 3,
+    "traits": [
+        "Mech-Pilot",
+        "Demolitionist"
+    ]
+  },
+  {
+    "name": "Singed",
+    "championId": "TFT5_Singed",
+    "cost": 1,
+    "traits": [
+        "Dark Star",
+        "Infiltrator"
+    ]
+  },
+  {
+    "name": "Sion",
+    "championId": "TFT5_Sion",
+    "cost": 4,
+    "traits": [
+        "Chrono",
+        "Blademaster"
+    ]
+  },
+  {
+    "name": "Swain",
+    "championId": "TFT5_Swain",
+    "cost": 2,
+    "traits": [
+        "Rebel",
+        "Mystic"
+    ]
+  },
+  {
+    "name": "Tahm Kench",
+    "championId": "TFT5_TahmKench",
+    "cost": 5,
+    "traits": [
+        "Star Guardian",
+        "Mystic"
+    ]
+  },
+  {
+    "name": "Talon",
+    "championId": "TFT5_Talon",
+    "cost": 2,
+    "traits": [
+        "Star Guardian",
+        "Sorcerer"
+    ]
+  },
+  {
+    "name": "Taric",
+    "championId": "TFT5_Taric",
+    "cost": 3,
+    "traits": [
+        "Chrono",
+        "Mana-Reaver"
+    ]
+  },
+  {
+    "name": "Tristana",
+    "championId": "TFT5_Tristana",
+    "cost": 2,
+    "traits": [
+        "Chrono",
+        "Sorcerer"
+    ]
+  },
+  {
+    "name": "Trundle",
+    "championId": "TFT5_Trundle",
+    "cost": 2,
+    "traits": [
+        "Void",
+        "Sorcerer"
+    ]
+  },
+  {
+    "name": "Twisted Fate",
+    "championId": "TFT5_TwistedFate",
+    "cost": 1,
+    "traits": [
+        "Cybernetic",
+        "Brawler"
+    ]
+  },
+  {
+    "name": "Twitch",
+    "championId": "TFT5_Twitch",
+    "cost": 1,
+    "traits": [
+        "Chrono",
+        "Vanguard"
+    ]
+  },
+  {
+    "name": "Urgot",
+    "championId": "TFT5_Urgot",
+    "cost": 4,
+    "traits": [
+        "Celestial",
+        "Blademaster"
+    ]
+  },
+  {
+    "name": "Vex",
+    "championId": "TFT5_Vex",
+    "cost": 3,
+    "traits": [
+        "Celestial",
+        "Protector"
+    ]
+  },
+  {
+    "name": "Vi",
+    "championId": "TFT5_Vi",
+    "cost": 2,
+    "traits": [
+        "Rebel",
+        "Blademaster"
+    ]
+  },
+  {
+    "name": "Viktor",
+    "championId": "TFT5_Viktor",
+    "cost": 5,
+    "traits": [
+        "Rebel",
+        "Demolitionist"
+    ]
+  },
+  {
+    "name": "Warwick",
+    "championId": "TFT5_Warwick",
+    "cost": 2,
+    "traits": [
+        "Star Guardian",
+        "Sorcerer"
+    ]
+  },
+  {
+    "name": "Warwick",
+    "championId": "TFT5_Warwick",
+    "cost": 2,
+    "traits": [
+        "Star Guardian",
+        "Sorcerer"
+    ]
+  },
+ {
+    "name": "Yone",
+    "championId": "TFT5_Yone",
+    "cost": 4,
+    "traits": [
+        "Star Guardian",
+        "Sorcerer"
+    ]
+  },
+{
+    "name": "Yuumi",
+    "championId": "TFT5_Yuumi",
+    "cost": 5,
+    "traits": [
+        "Star Guardian",
+        "Sorcerer"
+    ]
+  },
+  {
+    "name": "Zac",
+    "championId": "TFT5_Zac",
+    "cost": 3,
+    "traits": [
+        "Star Guardian",
+        "Sorcerer"
+    ]
+  },
+  {
+    "name": "Ziggs",
+    "championId": "TFT5_Ziggs",
+    "cost": 1,
+    "traits": [
+        "Star Guardian",
+        "Sorcerer"
+    ]
+  },
+  {
+    "name": "Zilean",
+    "championId": "TFT5_Zilean",
+    "cost": 2,
+    "traits": [
+        "Star Guardian",
+        "Sorcerer"
+    ]
+  },
+  {
+    "name": "Zyra",
+    "championId": "TFT5_Zyra",
+    "cost": 2,
+    "traits": [
+        "Star Guardian",
+        "Sorcerer"
+    ]
+  }
+]

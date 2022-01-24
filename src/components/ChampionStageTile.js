@@ -28,7 +28,7 @@ export class ChampionStageTile extends React.Component {
     this.returnToInitialPos = this.returnToInitialPos.bind(this);
   }
 
-  // we could get away with not having this (and just having the listeners on
+  // we could get away with not havingthis (and just having the listeners on
   // our div), but then the experience would be possibly be janky. If there's
   // anything w/ a higher z-index that gets in the way, then you're toast,
   // etc.
@@ -114,7 +114,7 @@ export class ChampionStageTile extends React.Component {
   render() {
     if(!this.props.dragging && this.props.active) this.returnToInitialPos();
     const champion = this.props.champion;
-    let iconPath = "icons/" + champion['name'].replace(" ", "").replace("'", "") + ".png";
+    let iconPath = "set6/icons/" + champion['name'].replace(" ", "").replace("'", "") + ".png";
     let starPath = "star" + champion['level'].toString() + ".png";
     let zIndex = this.state.active ? 1 : 2;
 

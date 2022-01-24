@@ -32,12 +32,12 @@ export class ChampionTile extends React.Component {
   render() {
     let championName = this.props.champion['name'];
     let championCost = this.props.champion['cost'];
-    let championImagePath = "splash/" + championName.replace(" ", "").replace("'", "") + ".png";
+    let championImagePath = "set6/splash/" + championName.replace(" ", "").replace("'", "") + ".png";
     let championTraits = this.props.champion['traits'];
     let tileImagePath = "shop-tile/tile" + championCost + ".png";
     let traitTexts = [];
     for(let trait of championTraits) {
-      let traitImagePath = "traits/" + trait.toLowerCase().replace(" ", "").replace("-", "") + ".png";
+      let traitImagePath = "set6/traits/" + trait.toLowerCase().replace(" ", "").replace("-", "") + ".png";
       traitTexts.push(
         <div key={trait} className="sm-font">
           <img className="trait-icon" src={images[traitImagePath]}/>

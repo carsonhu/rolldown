@@ -477,6 +477,13 @@ div.wrap {height:100%; overflow:hidden;}
   position: fixed;
   bottom: 48%;
   left: 50%;
+  width: 71%;
+  transform: translate(-50%, 0);
+}
+.champ-stage2 {
+  position: fixed;
+  bottom: 88%;
+  left: 50%;
   transform: translate(-50%, 0);
   width: 71%;
 }
