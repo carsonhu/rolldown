@@ -1,5 +1,6 @@
 import React from "react"
 import "../index.css"
+import SET from "../constants.js"
 
 function importAll(r) {
     let images = {};
@@ -114,7 +115,8 @@ export class ChampionStageTile extends React.Component {
   render() {
     if(!this.props.dragging && this.props.active) this.returnToInitialPos();
     const champion = this.props.champion;
-    let iconPath = "set6/icons/" + champion['name'].replace(" ", "").replace("'", "") + ".png";
+    let iconPath = `set${SET}/icons/` + champion['name'].toLowerCase().replace(" ", "").replace("'", "") + ".png";
+    
     let starPath = "star" + champion['level'].toString() + ".png";
     let zIndex = this.state.active ? 1 : 2;
 

@@ -120,6 +120,13 @@ div.wrap {height:100%; overflow:hidden;}
   font-size: 3.5vw;
 }
 
+.champ-button {
+  position: absolute;
+  color: #FFFFFF;
+  top: 25%;
+  right: 2%;
+  font-size: 3.5vw;
+}
 .logo:hover, .keybind-button:hover, .github-link:hover {
   animation: pulse 1s infinite;
   animation-timing-function: linear;

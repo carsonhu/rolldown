@@ -1,9 +1,13 @@
 import React from "react"
 import "../index.css"
+import SET from "../constants.js"
 
 function importAll(r) {
+    console.log(r.keys())
     let images = {};
     r.keys().map((item, index) => { images[item.replace('./', '')] = r(item); });
+    console.log("Images")
+    console.log(images)
     return images;
 }
 const images = importAll(require.context('../images', true, /\.(png|jpe?g|svg)$/));
@@ -32,12 +36,13 @@ export class ChampionTile extends React.Component {
   render() {
     let championName = this.props.champion['name'];
     let championCost = this.props.champion['cost'];
-    let championImagePath = "set6/splash/" + championName.replace(" ", "").replace("'", "") + ".png";
+    let championImagePath = `set${SET}/splash/` + championName.replace(" ", "").replace("'", "").toLowerCase() + ".png";
+    // console.log(championImagePath)
     let championTraits = this.props.champion['traits'];
     let tileImagePath = "shop-tile/tile" + championCost + ".png";
     let traitTexts = [];
     for(let trait of championTraits) {
-      let traitImagePath = "set6/traits/" + trait.toLowerCase().replace(" ", "").replace("-", "") + ".png";
+      let traitImagePath = `set${SET}/traits/` + trait.toLowerCase().replace(" ", "").replace("-", "") + ".png";
       traitTexts.push(
         <div key={trait} className="sm-font">
           <img className="trait-icon" src={images[traitImagePath]}/>

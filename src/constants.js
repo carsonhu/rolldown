@@ -23,11 +23,21 @@ export const CHAMPION_TOTAL_AMOUNT = {
   4: 12,
   5: 10
 }
+export const ROUND_GOLD = {
+  1: 2,
+  2: 3,
+  3: 3,
+  3: 4,
+  4: 5
+}
 export var KEYBINDS = [[70, "Buy XP"], [68, "Reroll"], [69, "Sell Champion"]];
+
+export const SET = 10
+export default SET;
 
 export const BENCH_SIZE = 36;
 
-const ChampionData = require("./json/set6champions.json");
+const ChampionData = require("./json/set10champions.json");
 export var championPool = {
   1: [],
   2: [],

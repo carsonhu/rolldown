@@ -10,3 +10,6 @@ export function KeybindButton(props) {
       onClick={props.onClick}/>
   );
 }
+
+        
+        

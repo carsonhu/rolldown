@@ -11,6 +11,7 @@ import { RefreshButton } from "./components/RefreshButton.js"
 import { RerollOdds } from "./components/RerollOdds.js"
 import { SellChampButton } from "./components/SellChampButton.js"
 import { KeybindButton } from "./components/KeybindButton.js"
+import { ChampionButton } from "./components/ChampionButton.js"
 
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDice } from '@fortawesome/free-solid-svg-icons'
@@ -31,6 +32,7 @@ const audio = importAll(require.context('./audio', true, /\.(ogg)$/));
 export default class App extends React.Component {
   constructor(props) {
     super(props);
+    // Fill MyStore with 5 champions with level 2 roll odds
     let myStore = [];
     for(let i = 0; i < 5; i++) {
       let champRolled = this.reroll(2);
@@ -40,6 +42,13 @@ export default class App extends React.Component {
         traits: champRolled['traits']
       });
     }
+    // Fill champion list with copy of every champion. works a bit differently from mystore
+    let champList = []; // list of all the champions
+    for(let key in Constants.championPool){
+      console.log(key);
+    }
+
+    // the bench. TODO: Separate bench and board
     let myStage = {};
     for(let i = 0; i < 18; i++) {
       myStage[i] = {
@@ -105,9 +114,7 @@ export default class App extends React.Component {
   //==Stage Champion Handling==//
 
   handleChampMouseOver(i) {
-    console.log("hovering")
     let myHovered = this.state.hovered;
-    console.log(myHovered)
     if(myHovered.includes(i)) return;
 
     myHovered.push(i);
@@ -131,7 +138,8 @@ export default class App extends React.Component {
     let myStage = this.state.stage;
     let player = new Audio(audio['drop.ogg']);
     player.volume = 0.2
-    // Swap spots
+
+    // If holding a unit, swap spots
     if(this.state.heldChamp !== null && i !== this.state.heldChamp) {
       let temp = myStage[i];
       myStage[i] = myStage[this.state.heldChamp];
@@ -144,6 +152,7 @@ export default class App extends React.Component {
       player.play();
       return;
     }
+    // If not holding unit, start dragging
     if(this.state.dragging === false) {
       if(myStage[i]['name'] === "") return;
       player = new Audio(audio['pickup.ogg']);
@@ -212,6 +221,11 @@ export default class App extends React.Component {
       xp: xp,
       gold: gold
     });
+  }
+
+  roundClicked(win) {
+    // Handle round logic. Start at 1-2. assume vanilla 6 gold opener
+    // round = this.state['round']
   }
 
   refreshClicked() {
@@ -516,6 +530,14 @@ export default class App extends React.Component {
             keybindMenuHidden: !this.state.keybindMenuHidden
           });
         }}/>
+        <ChampionButton onClick={() => {
+          let audioPath = this.state.keybindMenuHidden ? "menuopen.ogg" : "menuclose.ogg";
+          this.playSound(audioPath);
+          this.setState({
+            championMenuHidden: !this.state.championMenuHidden
+          });
+        }}/>
+        
         <a href="https://github.com/bryanjwong/rolldown" target="_blank" rel="noopener noreferrer">
           <FontAwesomeIcon icon={faGithub} className="github-link clickable"
             onClick={() => {
@@ -561,7 +583,7 @@ export default class App extends React.Component {
             onClick={() => this.sellChamp(this.state.heldChamp)}
             sellCost={sellCost}/>
           <ChampionMenu
-            hidden={this.state.keybindMenuHidden}/>
+            hidden={this.state.championMenuHidden}/>
           <KeybindMenu
             hidden={this.state.keybindMenuHidden}/>
         </div>
