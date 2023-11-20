@@ -24,7 +24,8 @@ function importAll(r) {
 }
 const images = importAll(require.context('./images', true, /\.(png|jpe?g|svg)$/));
 const audio = importAll(require.context('./audio', true, /\.(ogg)$/));
-
+let lastClick = Date.now();
+var delay = 100;
 /* Todos:
     View specific odds of rolling a champ
 */
@@ -75,11 +76,12 @@ export default class App extends React.Component {
     this.handleKeyPress = this.handleKeyPress.bind(this);
     this.handleGoldInput = this.handleGoldInput.bind(this);
     this.handleLvlInput = this.handleLvlInput.bind(this);
-    
   }
 
   //==Keyboard Input Handling==//
 
+
+  
   componentDidMount() {
     document.addEventListener('keydown', this.handleKeyPress);
   }
@@ -89,26 +91,30 @@ export default class App extends React.Component {
   }
 
   handleKeyPress(e) {
-    switch (e.keyCode) {
-      case Constants.KEYBINDS[0][0]:
-        this.buyXPClicked()
-        break;
-      case Constants.KEYBINDS[1][0]:
-        this.refreshClicked();
-        break;
-      case Constants.KEYBINDS[2][0]:
-        let myHovered = this.state.hovered;
-        let myStage = this.state.stage;
-        for(var i = 0; i < myHovered.length && myStage[myHovered[i]]['name'] === ""; i++) {}
-        if(i >= myHovered.length) return;
-        this.sellChamp(this.state.hovered[i]);
-        myHovered.splice(i, 1);
-        this.setState({
-          hovered: myHovered
-        });
-        break;
-      default:
-    }
+    if (Date.now() - lastClick > delay) {
+      switch (e.keyCode) {
+        case Constants.KEYBINDS[0][0]:
+          this.buyXPClicked()
+          break;
+        case Constants.KEYBINDS[1][0]:
+          this.refreshClicked();
+          break;
+        case Constants.KEYBINDS[2][0]:
+          let myHovered = this.state.hovered;
+          let myStage = this.state.stage;
+          for(var i = 0; i < myHovered.length && myStage[myHovered[i]]['name'] === ""; i++) {}
+          if(i >= myHovered.length) return;
+          this.sellChamp(this.state.hovered[i]);
+          myHovered.splice(i, 1);
+          this.setState({
+            hovered: myHovered
+          });
+          break;
+        default:
+      }
+    lastClick = Date.now()
+  }
+
   }
 
   //==Stage Champion Handling==//

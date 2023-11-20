@@ -16,6 +16,7 @@ export class ChampionStage extends React.Component {
     }
     // let champ2 = [[championIcons.slice(0,9)], [championIcons.slice(9,18)]];
     return (
+      
       <div class="container">
       <div className ="row"
          style={{
