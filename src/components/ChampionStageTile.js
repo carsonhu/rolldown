@@ -116,7 +116,7 @@ export class ChampionStageTile extends React.Component {
     if(!this.props.dragging && this.props.active) this.returnToInitialPos();
     const champion = this.props.champion;
     let iconPath = `set${SET}/icons/` + champion['name'].toLowerCase().replace(" ", "").replace("'", "") + ".png";
-    
+    console.log(iconPath)
     let starPath = "star" + champion['level'].toString() + ".png";
     let zIndex = this.state.active ? 1 : 2;
 
@@ -130,7 +130,8 @@ export class ChampionStageTile extends React.Component {
           zIndex: zIndex
         }}
       >
-        <div className="empty-tile"></div>
+        <div className="empty-tile"><img className="stage-icon2" src={images["shop-tile/tile1.png"]}
+              onMouseOver={this.props.onMouseOver} onMouseLeave={this.props.onMouseLeave}/></div>
       </div>);
     }
     return(
@@ -143,8 +144,9 @@ export class ChampionStageTile extends React.Component {
           left: this.state.pos.x + 'px',
           top: this.state.pos.y + 'px',
           width: '100%',
-          zIndex: zIndex
+          zIndex: zIndex,
         }}>
+
           <div className="glow-when-hovered">
             <img className="stage-icon" src={images[iconPath]}
               onMouseOver={this.props.onMouseOver} onMouseLeave={this.props.onMouseLeave}/>

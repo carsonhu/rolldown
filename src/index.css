@@ -470,6 +470,16 @@ div.wrap {height:100%; overflow:hidden;}
   border-radius: 50px;
 }
 
+.stage-icon2 {
+  position: absolute;
+  width: 100%;
+  height: 12vh;
+  bottom: -8vh;
+  border-radius: 50px;
+  z-index: -1;
+}
+
+
 .stage-star {
   position: absolute;
   display: block;
@@ -489,8 +499,9 @@ div.wrap {height:100%; overflow:hidden;}
 }
 .champ-stage2 {
   position: fixed;
-  bottom: 88%;
+  bottom: 48%;
   left: 50%;
   transform: translate(-50%, 0);
-  width: 71%;
+  width: 73%;
+  z-index: -1;
 }
