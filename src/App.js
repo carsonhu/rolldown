@@ -4,6 +4,8 @@ import * as Constants from "./constants.js"
 
 import { ChampionStage } from "./components/ChampionStage.js"
 import { ChampionTile } from "./components/ChampionTile.js"
+import { TraitTile } from "./components/TraitTile.js"
+import { TraitMenu } from "./components/TraitMenu.js"
 import { KeybindMenu } from "./components/KeybindMenu.js"
 import { ChampionMenu } from "./components/ChampionMenu.js"
 import { BuyXPButton } from "./components/BuyXPButton.js"
@@ -523,12 +525,6 @@ export default class App extends React.Component {
     return (
       <div onKeyDown={this.handleKeyPress}>
         <img className="background" src={images['tft-map-background.jpg']}/>
-        <div className="title" >
-          <a href="/rolldown/index.html">
-            rolldown.gg
-            <FontAwesomeIcon icon={faDice} className="logo"/>
-          </a>
-        </div>
         <KeybindButton onClick={() => {
           let audioPath = this.state.keybindMenuHidden ? "menuopen.ogg" : "menuclose.ogg";
           this.playSound(audioPath);
@@ -550,6 +546,11 @@ export default class App extends React.Component {
             this.playSound('urf.ogg');
           }}/>
         </a>
+        <TraitMenu stage={this.state['stage']}></TraitMenu>
+        {/* <TraitTile trait="Pentakill"
+                   count={5}
+        ></TraitTile> */}
+
         <ChampionStage
           stage={this.state['stage']}
           onMouseOver={(i) => this.handleChampMouseOver(i)}

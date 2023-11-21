@@ -116,7 +116,6 @@ export class ChampionStageTile extends React.Component {
     if(!this.props.dragging && this.props.active) this.returnToInitialPos();
     const champion = this.props.champion;
     let iconPath = `set${SET}/icons/` + champion['name'].toLowerCase().replace(" ", "").replace("'", "") + ".png";
-    console.log(iconPath)
     let starPath = "star" + champion['level'].toString() + ".png";
     let zIndex = this.state.active ? 1 : 2;
 

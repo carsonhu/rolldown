@@ -1,0 +1,695 @@
+[
+    {
+        "name": "Emo",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Sentinel",
+        "cutoffs": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "Guardian",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "True Damage",
+        "cutoffs": [
+            2,
+            4,
+            6,
+            9
+        ]
+    },
+    {
+        "name": "Country",
+        "cutoffs": [
+            3,
+            5,
+            7
+        ]
+    },
+    {
+        "name": "8-bit",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Breakout",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Spellweaver",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "Hyperpop",
+        "cutoffs": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "name": "Pentakill",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "ILLBEATS",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Wildcard",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Edgelord",
+        "cutoffs": [
+            3,
+            5,
+            7
+        ]
+    },
+    {
+        "name": "Executioner",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Superfan",
+        "cutoffs": [
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "name": "Mixmaster",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Big Shot",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Crowd Diver",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "K/DA",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "Maestro",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Disco",
+        "cutoffs": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "name": "Mosher",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Rapidfire",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Punk",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Dazzler",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Heartsteel",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "Bruiser",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Jazz",
+        "cutoffs": [
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "name": "EDM",
+        "cutoffs": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "name": "Emo",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Sentinel",
+        "cutoffs": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "Guardian",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "True Damage",
+        "cutoffs": [
+            2,
+            4,
+            6,
+            9
+        ]
+    },
+    {
+        "name": "Country",
+        "cutoffs": [
+            3,
+            5,
+            7
+        ]
+    },
+    {
+        "name": "8-bit",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Breakout",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Spellweaver",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "Hyperpop",
+        "cutoffs": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "name": "Pentakill",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "ILLBEATS",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Wildcard",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Edgelord",
+        "cutoffs": [
+            3,
+            5,
+            7
+        ]
+    },
+    {
+        "name": "Executioner",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Superfan",
+        "cutoffs": [
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "name": "Mixmaster",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Big Shot",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Crowd Diver",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "K/DA",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "Maestro",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Disco",
+        "cutoffs": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "name": "Mosher",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Rapidfire",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Punk",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Dazzler",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Heartsteel",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "Bruiser",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Jazz",
+        "cutoffs": [
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "name": "EDM",
+        "cutoffs": [
+            2,
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "name": "Emo",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Sentinel",
+        "cutoffs": [
+            2,
+            4,
+            6,
+            8
+        ]
+    },
+    {
+        "name": "Guardian",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "True Damage",
+        "cutoffs": [
+            2,
+            4,
+            6,
+            9
+        ]
+    },
+    {
+        "name": "Country",
+        "cutoffs": [
+            3,
+            5,
+            7
+        ]
+    },
+    {
+        "name": "8-bit",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Breakout",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Spellweaver",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "Hyperpop",
+        "cutoffs": [
+            1,
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "name": "Pentakill",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "ILLBEATS",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Wildcard",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Edgelord",
+        "cutoffs": [
+            3,
+            5,
+            7
+        ]
+    },
+    {
+        "name": "Executioner",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Superfan",
+        "cutoffs": [
+            3,
+            4,
+            5
+        ]
+    },
+    {
+        "name": "Mixmaster",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Big Shot",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Crowd Diver",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "K/DA",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "Maestro",
+        "cutoffs": [
+            1
+        ]
+    },
+    {
+        "name": "Disco",
+        "cutoffs": [
+            3,
+            4,
+            5,
+            6
+        ]
+    },
+    {
+        "name": "Mosher",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Rapidfire",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Punk",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Dazzler",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Heartsteel",
+        "cutoffs": [
+            3,
+            5,
+            7,
+            10
+        ]
+    },
+    {
+        "name": "Bruiser",
+        "cutoffs": [
+            2,
+            4,
+            6
+        ]
+    },
+    {
+        "name": "Jazz",
+        "cutoffs": [
+            2,
+            3,
+            4
+        ]
+    },
+    {
+        "name": "EDM",
+        "cutoffs": [
+            2,
+            3,
+            4,
+            5
+        ]
+    }
+]

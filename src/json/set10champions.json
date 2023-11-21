@@ -1,1 +1,1796 @@
-[{"name": "Ahri", "championId": "TFT10_Ahri", "cost": 4, "traits": ["K/DA", "Spellweaver"]}, {"name": "Akali", "championId": "TFT10_Akali", "cost": 4, "traits": ["K/DA", "Executioner", "Breakout"]}, {"name": "Amumu", "championId": "TFT10_Amumu", "cost": 3, "traits": ["Emo", "Guardian"]}, {"name": "Annie", "championId": "TFT10_Annie", "cost": 1, "traits": ["Emo", "Spellweaver"]}, {"name": "Aphelios", "championId": "TFT10_Aphelios", "cost": 2, "traits": ["Heartsteel", "Rapidfire"]}, {"name": "Bard", "championId": "TFT10_Bard", "cost": 2, "traits": ["Jazz", "Dazzler"]}, {"name": "Blitzcrank", "championId": "TFT10_Blitzcrank", "cost": 4, "traits": ["Disco", "Sentinel"]}, {"name": "Caitlyn", "championId": "TFT10_Caitlyn", "cost": 4, "traits": ["8-bit", "Rapidfire"]}, {"name": "Corki", "championId": "TFT10_Corki", "cost": 1, "traits": ["8-bit", "Big Shot"]}, {"name": "Ekko", "championId": "TFT10_Ekko", "cost": 3, "traits": ["True Damage", "Spellweaver", "Sentinel"]}, {"name": "Evelynn", "championId": "TFT10_Evelynn", "cost": 1, "traits": ["K/DA", "Crowd Diver"]}, {"name": "Ezreal", "championId": "TFT10_Ezreal", "cost": 4, "traits": ["Heartsteel", "Big Shot"]}, {"name": "Gnar", "championId": "TFT10_Gnar", "cost": 2, "traits": ["Pentakill", "Superfan", "Mosher"]}, {"name": "Gragas", "championId": "TFT10_Gragas", "cost": 2, "traits": ["Disco", "Spellweaver", "Bruiser"]}, {"name": "Illaoi", "championId": "TFT10_Illaoi", "cost": 5, "traits": ["ILLBEATS", "Bruiser"]}, {"name": "Jax", "championId": "TFT10_Jax", "cost": 2, "traits": ["EDM", "Mosher"]}, {"name": "Jhin", "championId": "TFT10_Jhin", "cost": 5, "traits": ["Maestro", "Big Shot"]}, {"name": "Jinx", "championId": "TFT10_Jinx", "cost": 1, "traits": ["Punk", "Rapidfire"]}, {"name": "Karthus", "championId": "TFT10_Karthus", "cost": 4, "traits": ["Pentakill", "Executioner"]}, {"name": "Katarina", "championId": "TFT10_Katarina", "cost": 2, "traits": ["Country", "Crowd Diver"]}, {"name": "Kayle", "championId": "TFT10_Kayle", "cost": 2, "traits": ["Pentakill", "Edgelord"]}, {"name": "Kayn", "championId": "TFT10_Kayn", "cost": 5, "traits": ["Heartsteel", "Edgelord", "Wildcard"]}, {"name": "Kennen", "championId": "TFT10_Kennen", "cost": 1, "traits": ["True Damage", "Superfan", "Guardian"]}, {"name": "Lillia", "championId": "TFT10_Lillia", "cost": 1, "traits": ["K/DA", "Superfan", "Sentinel"]}, {"name": "Lucian", "championId": "TFT10_Lucian", "cost": 5, "traits": ["Jazz", "Rapidfire"]}, {"name": "Lulu", "championId": "TFT10_Lulu", "cost": 3, "traits": ["Hyperpop", "Spellweaver"]}, {"name": "Lux", "championId": "TFT10_Lux", "cost": 3, "traits": ["EDM", "Dazzler"]}, {"name": "Mordekaiser", "championId": "TFT10_Mordekaiser", "cost": 3, "traits": ["Pentakill", "Sentinel"]}, {"name": "Nami", "championId": "TFT10_Nami", "cost": 1, "traits": ["Disco", "Dazzler"]}, {"name": "Neeko", "championId": "TFT10_Neeko", "cost": 3, "traits": ["K/DA", "Superfan", "Guardian"]}, {"name": "Pantheon", "championId": "TFT10_Pantheon", "cost": 2, "traits": ["Punk", "Guardian"]}, {"name": "Poppy", "championId": "TFT10_Poppy", "cost": 4, "traits": ["Emo", "Mosher"]}, {"name": "Qiyana", "championId": "TFT10_Qiyana", "cost": 5, "traits": ["True Damage", "Crowd Diver"]}, {"name": "Riven", "championId": "TFT10_Riven", "cost": 3, "traits": ["8-bit", "Edgelord"]}, {"name": "Samira", "championId": "TFT10_Samira", "cost": 3, "traits": ["Country", "Executioner"]}, {"name": "Senna", "championId": "TFT10_Senna", "cost": 2, "traits": ["True Damage", "Rapidfire"]}, {"name": "Seraphine", "championId": "TFT10_Seraphine", "cost": 2, "traits": ["K/DA", "Spellweaver"]}, {"name": "Sett", "championId": "TFT10_Sett", "cost": 3, "traits": ["Heartsteel", "Bruiser", "Mosher"]}, {"name": "Sona", "championId": "TFT10_Sona", "cost": 5, "traits": ["Mixmaster", "Spellweaver"]}, {"name": "Taric", "championId": "TFT10_Taric", "cost": 1, "traits": ["Disco", "Guardian"]}, {"name": "Thresh", "championId": "TFT10_Thresh", "cost": 4, "traits": ["Country", "Guardian"]}, {"name": "Twitch", "championId": "TFT10_Twitch", "cost": 2, "traits": ["Punk", "Executioner"]}, {"name": "Urgot", "championId": "TFT10_Urgot", "cost": 3, "traits": ["Country", "Mosher"]}, {"name": "Vex", "championId": "TFT10_Vex", "cost": 3, "traits": ["Emo", "Executioner"]}, {"name": "Vi", "championId": "TFT10_Vi", "cost": 1, "traits": ["Punk", "Mosher"]}, {"name": "Viego", "championId": "TFT10_Viego", "cost": 4, "traits": ["Pentakill", "Edgelord"]}, {"name": "Yasuo", "championId": "TFT10_Yasuo", "cost": 1, "traits": ["True Damage", "Edgelord"]}, {"name": "Yone", "championId": "TFT10_Yone", "cost": 3, "traits": ["Heartsteel", "Edgelord", "Crowd Diver"]}, {"name": "Yorick", "championId": "TFT10_Yorick", "cost": 5, "traits": ["Pentakill", "Mosher", "Guardian"]}, {"name": "Zac", "championId": "TFT10_Zac", "cost": 4, "traits": ["EDM", "Bruiser"]}, {"name": "Zed", "championId": "TFT10_Zed", "cost": 4, "traits": ["EDM", "Crowd Diver"]}, {"name": "Ziggs", "championId": "TFT10_Ziggs", "cost": 5, "traits": ["Hyperpop", "Dazzler"]}, {"name": "Miss Fortune", "championId": "TFT10_MissFortune", "cost": 3, "traits": ["Jazz", "Big Shot"]}, {"name": "Olaf", "championId": "TFT10_Olaf", "cost": 1, "traits": ["Pentakill", "Bruiser"]}, {"name": "Tahm Kench", "championId": "TFT10_TahmKench", "cost": 1, "traits": ["Country", "Bruiser"]}, {"name": "Twisted Fate", "championId": "TFT10_TwistedFate", "cost": 4, "traits": ["Disco", "Dazzler"]}, {"name": "K'Sante", "championId": "TFT10_KSante", "cost": 1, "traits": ["Heartsteel", "Sentinel"]}, {"name": "Kai'Sa", "championId": "TFT10_Kaisa", "cost": 2, "traits": ["K/DA", "Big Shot"]}, {"name": "Disco Ball", "championId": "TFT10_DiscoBall", "cost": 11, "traits": ["Disco"]}, {"name": "Yorick", "championId": "TFT10_YorickGhoulMelee", "cost": 11, "traits": ["Pentakill"]}, {"name": "LuluPolymorphCritter", "championId": "TFT10_LuluPolymorph", "cost": 11, "traits": []}, {"name": "Tentacle", "championId": "TFT10_IllaoiMinion", "cost": 9, "traits": []}, {"name": "Akali", "championId": "TFT10_Akali_TrueDamage", "cost": 4, "traits": ["True Damage", "Executioner", "Breakout"]}, {"name": "SightWard", "championId": "TFT10_DesperadoProp", "cost": 11, "traits": []}, {"name": "The Dreadsteed", "championId": "TFT10_CountryHecarim", "cost": 11, "traits": []}, {"name": "SightWard", "championId": "TFT10_PBJProp", "cost": 11, "traits": []}, {"name": "Garen", "championId": "TFT10_Garen", "cost": 2, "traits": ["8-bit", "Sentinel"]}, {"name": "Ahri", "championId": "TFT10_Ahri", "cost": 4, "traits": ["K/DA", "Spellweaver"]}, {"name": "Akali", "championId": "TFT10_Akali", "cost": 4, "traits": ["K/DA", "Executioner", "Breakout"]}, {"name": "Amumu", "championId": "TFT10_Amumu", "cost": 3, "traits": ["Emo", "Guardian"]}, {"name": "Annie", "championId": "TFT10_Annie", "cost": 1, "traits": ["Emo", "Spellweaver"]}, {"name": "Aphelios", "championId": "TFT10_Aphelios", "cost": 2, "traits": ["Heartsteel", "Rapidfire"]}, {"name": "Bard", "championId": "TFT10_Bard", "cost": 2, "traits": ["Jazz", "Dazzler"]}, {"name": "Blitzcrank", "championId": "TFT10_Blitzcrank", "cost": 4, "traits": ["Disco", "Sentinel"]}, {"name": "Caitlyn", "championId": "TFT10_Caitlyn", "cost": 4, "traits": ["8-bit", "Rapidfire"]}, {"name": "Corki", "championId": "TFT10_Corki", "cost": 1, "traits": ["8-bit", "Big Shot"]}, {"name": "Ekko", "championId": "TFT10_Ekko", "cost": 3, "traits": ["True Damage", "Spellweaver", "Sentinel"]}, {"name": "Evelynn", "championId": "TFT10_Evelynn", "cost": 1, "traits": ["K/DA", "Crowd Diver"]}, {"name": "Ezreal", "championId": "TFT10_Ezreal", "cost": 4, "traits": ["Heartsteel", "Big Shot"]}, {"name": "Gnar", "championId": "TFT10_Gnar", "cost": 2, "traits": ["Pentakill", "Superfan", "Mosher"]}, {"name": "Gragas", "championId": "TFT10_Gragas", "cost": 2, "traits": ["Disco", "Spellweaver", "Bruiser"]}, {"name": "Illaoi", "championId": "TFT10_Illaoi", "cost": 5, "traits": ["ILLBEATS", "Bruiser"]}, {"name": "Jax", "championId": "TFT10_Jax", "cost": 2, "traits": ["EDM", "Mosher"]}, {"name": "Jhin", "championId": "TFT10_Jhin", "cost": 5, "traits": ["Maestro", "Big Shot"]}, {"name": "Jinx", "championId": "TFT10_Jinx", "cost": 1, "traits": ["Punk", "Rapidfire"]}, {"name": "Karthus", "championId": "TFT10_Karthus", "cost": 4, "traits": ["Pentakill", "Executioner"]}, {"name": "Katarina", "championId": "TFT10_Katarina", "cost": 2, "traits": ["Country", "Crowd Diver"]}, {"name": "Kayle", "championId": "TFT10_Kayle", "cost": 2, "traits": ["Pentakill", "Edgelord"]}, {"name": "Kayn", "championId": "TFT10_Kayn", "cost": 5, "traits": ["Heartsteel", "Edgelord", "Wildcard"]}, {"name": "Kennen", "championId": "TFT10_Kennen", "cost": 1, "traits": ["True Damage", "Superfan", "Guardian"]}, {"name": "Lillia", "championId": "TFT10_Lillia", "cost": 1, "traits": ["K/DA", "Superfan", "Sentinel"]}, {"name": "Lucian", "championId": "TFT10_Lucian", "cost": 5, "traits": ["Jazz", "Rapidfire"]}, {"name": "Lulu", "championId": "TFT10_Lulu", "cost": 3, "traits": ["Hyperpop", "Spellweaver"]}, {"name": "Lux", "championId": "TFT10_Lux", "cost": 3, "traits": ["EDM", "Dazzler"]}, {"name": "Mordekaiser", "championId": "TFT10_Mordekaiser", "cost": 3, "traits": ["Pentakill", "Sentinel"]}, {"name": "Nami", "championId": "TFT10_Nami", "cost": 1, "traits": ["Disco", "Dazzler"]}, {"name": "Neeko", "championId": "TFT10_Neeko", "cost": 3, "traits": ["K/DA", "Superfan", "Guardian"]}, {"name": "Pantheon", "championId": "TFT10_Pantheon", "cost": 2, "traits": ["Punk", "Guardian"]}, {"name": "Poppy", "championId": "TFT10_Poppy", "cost": 4, "traits": ["Emo", "Mosher"]}, {"name": "Qiyana", "championId": "TFT10_Qiyana", "cost": 5, "traits": ["True Damage", "Crowd Diver"]}, {"name": "Riven", "championId": "TFT10_Riven", "cost": 3, "traits": ["8-bit", "Edgelord"]}, {"name": "Samira", "championId": "TFT10_Samira", "cost": 3, "traits": ["Country", "Executioner"]}, {"name": "Senna", "championId": "TFT10_Senna", "cost": 2, "traits": ["True Damage", "Rapidfire"]}, {"name": "Seraphine", "championId": "TFT10_Seraphine", "cost": 2, "traits": ["K/DA", "Spellweaver"]}, {"name": "Sett", "championId": "TFT10_Sett", "cost": 3, "traits": ["Heartsteel", "Bruiser", "Mosher"]}, {"name": "Sona", "championId": "TFT10_Sona", "cost": 5, "traits": ["Mixmaster", "Spellweaver"]}, {"name": "Taric", "championId": "TFT10_Taric", "cost": 1, "traits": ["Disco", "Guardian"]}, {"name": "Thresh", "championId": "TFT10_Thresh", "cost": 4, "traits": ["Country", "Guardian"]}, {"name": "Twitch", "championId": "TFT10_Twitch", "cost": 2, "traits": ["Punk", "Executioner"]}, {"name": "Urgot", "championId": "TFT10_Urgot", "cost": 3, "traits": ["Country", "Mosher"]}, {"name": "Vex", "championId": "TFT10_Vex", "cost": 3, "traits": ["Emo", "Executioner"]}, {"name": "Vi", "championId": "TFT10_Vi", "cost": 1, "traits": ["Punk", "Mosher"]}, {"name": "Viego", "championId": "TFT10_Viego", "cost": 4, "traits": ["Pentakill", "Edgelord"]}, {"name": "Yasuo", "championId": "TFT10_Yasuo", "cost": 1, "traits": ["True Damage", "Edgelord"]}, {"name": "Yone", "championId": "TFT10_Yone", "cost": 3, "traits": ["Heartsteel", "Edgelord", "Crowd Diver"]}, {"name": "Yorick", "championId": "TFT10_Yorick", "cost": 5, "traits": ["Pentakill", "Mosher", "Guardian"]}, {"name": "Zac", "championId": "TFT10_Zac", "cost": 4, "traits": ["EDM", "Bruiser"]}, {"name": "Zed", "championId": "TFT10_Zed", "cost": 4, "traits": ["EDM", "Crowd Diver"]}, {"name": "Ziggs", "championId": "TFT10_Ziggs", "cost": 5, "traits": ["Hyperpop", "Dazzler"]}, {"name": "Miss Fortune", "championId": "TFT10_MissFortune", "cost": 3, "traits": ["Jazz", "Big Shot"]}, {"name": "Olaf", "championId": "TFT10_Olaf", "cost": 1, "traits": ["Pentakill", "Bruiser"]}, {"name": "Tahm Kench", "championId": "TFT10_TahmKench", "cost": 1, "traits": ["Country", "Bruiser"]}, {"name": "Twisted Fate", "championId": "TFT10_TwistedFate", "cost": 4, "traits": ["Disco", "Dazzler"]}, {"name": "K'Sante", "championId": "TFT10_KSante", "cost": 1, "traits": ["Heartsteel", "Sentinel"]}, {"name": "Kai'Sa", "championId": "TFT10_Kaisa", "cost": 2, "traits": ["K/DA", "Big Shot"]}, {"name": "Disco Ball", "championId": "TFT10_DiscoBall", "cost": 11, "traits": ["Disco"]}, {"name": "Yorick", "championId": "TFT10_YorickGhoulMelee", "cost": 11, "traits": ["Pentakill"]}, {"name": "LuluPolymorphCritter", "championId": "TFT10_LuluPolymorph", "cost": 11, "traits": []}, {"name": "Tentacle", "championId": "TFT10_IllaoiMinion", "cost": 9, "traits": []}, {"name": "Akali", "championId": "TFT10_Akali_TrueDamage", "cost": 4, "traits": ["True Damage", "Executioner", "Breakout"]}, {"name": "SightWard", "championId": "TFT10_DesperadoProp", "cost": 11, "traits": []}, {"name": "The Dreadsteed", "championId": "TFT10_CountryHecarim", "cost": 11, "traits": []}, {"name": "SightWard", "championId": "TFT10_PBJProp", "cost": 11, "traits": []}, {"name": "Garen", "championId": "TFT10_Garen", "cost": 2, "traits": ["8-bit", "Sentinel"]}, {"name": "Ahri", "championId": "TFT10_Ahri", "cost": 4, "traits": ["K/DA", "Spellweaver"]}, {"name": "Akali", "championId": "TFT10_Akali", "cost": 4, "traits": ["K/DA", "Executioner", "Breakout"]}, {"name": "Amumu", "championId": "TFT10_Amumu", "cost": 3, "traits": ["Emo", "Guardian"]}, {"name": "Annie", "championId": "TFT10_Annie", "cost": 1, "traits": ["Emo", "Spellweaver"]}, {"name": "Aphelios", "championId": "TFT10_Aphelios", "cost": 2, "traits": ["Heartsteel", "Rapidfire"]}, {"name": "Bard", "championId": "TFT10_Bard", "cost": 2, "traits": ["Jazz", "Dazzler"]}, {"name": "Blitzcrank", "championId": "TFT10_Blitzcrank", "cost": 4, "traits": ["Disco", "Sentinel"]}, {"name": "Caitlyn", "championId": "TFT10_Caitlyn", "cost": 4, "traits": ["8-bit", "Rapidfire"]}, {"name": "Corki", "championId": "TFT10_Corki", "cost": 1, "traits": ["8-bit", "Big Shot"]}, {"name": "Ekko", "championId": "TFT10_Ekko", "cost": 3, "traits": ["True Damage", "Spellweaver", "Sentinel"]}, {"name": "Evelynn", "championId": "TFT10_Evelynn", "cost": 1, "traits": ["K/DA", "Crowd Diver"]}, {"name": "Ezreal", "championId": "TFT10_Ezreal", "cost": 4, "traits": ["Heartsteel", "Big Shot"]}, {"name": "Gnar", "championId": "TFT10_Gnar", "cost": 2, "traits": ["Pentakill", "Superfan", "Mosher"]}, {"name": "Gragas", "championId": "TFT10_Gragas", "cost": 2, "traits": ["Disco", "Spellweaver", "Bruiser"]}, {"name": "Illaoi", "championId": "TFT10_Illaoi", "cost": 5, "traits": ["ILLBEATS", "Bruiser"]}, {"name": "Jax", "championId": "TFT10_Jax", "cost": 2, "traits": ["EDM", "Mosher"]}, {"name": "Jhin", "championId": "TFT10_Jhin", "cost": 5, "traits": ["Maestro", "Big Shot"]}, {"name": "Jinx", "championId": "TFT10_Jinx", "cost": 1, "traits": ["Punk", "Rapidfire"]}, {"name": "Karthus", "championId": "TFT10_Karthus", "cost": 4, "traits": ["Pentakill", "Executioner"]}, {"name": "Katarina", "championId": "TFT10_Katarina", "cost": 2, "traits": ["Country", "Crowd Diver"]}, {"name": "Kayle", "championId": "TFT10_Kayle", "cost": 2, "traits": ["Pentakill", "Edgelord"]}, {"name": "Kayn", "championId": "TFT10_Kayn", "cost": 5, "traits": ["Heartsteel", "Edgelord", "Wildcard"]}, {"name": "Kennen", "championId": "TFT10_Kennen", "cost": 1, "traits": ["True Damage", "Superfan", "Guardian"]}, {"name": "Lillia", "championId": "TFT10_Lillia", "cost": 1, "traits": ["K/DA", "Superfan", "Sentinel"]}, {"name": "Lucian", "championId": "TFT10_Lucian", "cost": 5, "traits": ["Jazz", "Rapidfire"]}, {"name": "Lulu", "championId": "TFT10_Lulu", "cost": 3, "traits": ["Hyperpop", "Spellweaver"]}, {"name": "Lux", "championId": "TFT10_Lux", "cost": 3, "traits": ["EDM", "Dazzler"]}, {"name": "Mordekaiser", "championId": "TFT10_Mordekaiser", "cost": 3, "traits": ["Pentakill", "Sentinel"]}, {"name": "Nami", "championId": "TFT10_Nami", "cost": 1, "traits": ["Disco", "Dazzler"]}, {"name": "Neeko", "championId": "TFT10_Neeko", "cost": 3, "traits": ["K/DA", "Superfan", "Guardian"]}, {"name": "Pantheon", "championId": "TFT10_Pantheon", "cost": 2, "traits": ["Punk", "Guardian"]}, {"name": "Poppy", "championId": "TFT10_Poppy", "cost": 4, "traits": ["Emo", "Mosher"]}, {"name": "Qiyana", "championId": "TFT10_Qiyana", "cost": 5, "traits": ["True Damage", "Crowd Diver"]}, {"name": "Riven", "championId": "TFT10_Riven", "cost": 3, "traits": ["8-bit", "Edgelord"]}, {"name": "Samira", "championId": "TFT10_Samira", "cost": 3, "traits": ["Country", "Executioner"]}, {"name": "Senna", "championId": "TFT10_Senna", "cost": 2, "traits": ["True Damage", "Rapidfire"]}, {"name": "Seraphine", "championId": "TFT10_Seraphine", "cost": 2, "traits": ["K/DA", "Spellweaver"]}, {"name": "Sett", "championId": "TFT10_Sett", "cost": 3, "traits": ["Heartsteel", "Bruiser", "Mosher"]}, {"name": "Sona", "championId": "TFT10_Sona", "cost": 5, "traits": ["Mixmaster", "Spellweaver"]}, {"name": "Taric", "championId": "TFT10_Taric", "cost": 1, "traits": ["Disco", "Guardian"]}, {"name": "Thresh", "championId": "TFT10_Thresh", "cost": 4, "traits": ["Country", "Guardian"]}, {"name": "Twitch", "championId": "TFT10_Twitch", "cost": 2, "traits": ["Punk", "Executioner"]}, {"name": "Urgot", "championId": "TFT10_Urgot", "cost": 3, "traits": ["Country", "Mosher"]}, {"name": "Vex", "championId": "TFT10_Vex", "cost": 3, "traits": ["Emo", "Executioner"]}, {"name": "Vi", "championId": "TFT10_Vi", "cost": 1, "traits": ["Punk", "Mosher"]}, {"name": "Viego", "championId": "TFT10_Viego", "cost": 4, "traits": ["Pentakill", "Edgelord"]}, {"name": "Yasuo", "championId": "TFT10_Yasuo", "cost": 1, "traits": ["True Damage", "Edgelord"]}, {"name": "Yone", "championId": "TFT10_Yone", "cost": 3, "traits": ["Heartsteel", "Edgelord", "Crowd Diver"]}, {"name": "Yorick", "championId": "TFT10_Yorick", "cost": 5, "traits": ["Pentakill", "Mosher", "Guardian"]}, {"name": "Zac", "championId": "TFT10_Zac", "cost": 4, "traits": ["EDM", "Bruiser"]}, {"name": "Zed", "championId": "TFT10_Zed", "cost": 4, "traits": ["EDM", "Crowd Diver"]}, {"name": "Ziggs", "championId": "TFT10_Ziggs", "cost": 5, "traits": ["Hyperpop", "Dazzler"]}, {"name": "Miss Fortune", "championId": "TFT10_MissFortune", "cost": 3, "traits": ["Jazz", "Big Shot"]}, {"name": "Olaf", "championId": "TFT10_Olaf", "cost": 1, "traits": ["Pentakill", "Bruiser"]}, {"name": "Tahm Kench", "championId": "TFT10_TahmKench", "cost": 1, "traits": ["Country", "Bruiser"]}, {"name": "Twisted Fate", "championId": "TFT10_TwistedFate", "cost": 4, "traits": ["Disco", "Dazzler"]}, {"name": "K'Sante", "championId": "TFT10_KSante", "cost": 1, "traits": ["Heartsteel", "Sentinel"]}, {"name": "Kai'Sa", "championId": "TFT10_Kaisa", "cost": 2, "traits": ["K/DA", "Big Shot"]}, {"name": "Disco Ball", "championId": "TFT10_DiscoBall", "cost": 11, "traits": ["Disco"]}, {"name": "Yorick", "championId": "TFT10_YorickGhoulMelee", "cost": 11, "traits": ["Pentakill"]}, {"name": "LuluPolymorphCritter", "championId": "TFT10_LuluPolymorph", "cost": 11, "traits": []}, {"name": "Tentacle", "championId": "TFT10_IllaoiMinion", "cost": 9, "traits": []}, {"name": "Akali", "championId": "TFT10_Akali_TrueDamage", "cost": 4, "traits": ["True Damage", "Executioner", "Breakout"]}, {"name": "SightWard", "championId": "TFT10_DesperadoProp", "cost": 11, "traits": []}, {"name": "The Dreadsteed", "championId": "TFT10_CountryHecarim", "cost": 11, "traits": []}, {"name": "SightWard", "championId": "TFT10_PBJProp", "cost": 11, "traits": []}, {"name": "Garen", "championId": "TFT10_Garen", "cost": 2, "traits": ["8-bit", "Sentinel"]}]
+[
+    {
+        "name": "Ahri",
+        "championId": "TFT10_Ahri",
+        "cost": 4,
+        "traits": [
+            "K/DA",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Akali",
+        "championId": "TFT10_Akali",
+        "cost": 4,
+        "traits": [
+            "K/DA",
+            "Executioner",
+            "Breakout"
+        ]
+    },
+    {
+        "name": "Amumu",
+        "championId": "TFT10_Amumu",
+        "cost": 3,
+        "traits": [
+            "Emo",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Annie",
+        "championId": "TFT10_Annie",
+        "cost": 1,
+        "traits": [
+            "Emo",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Aphelios",
+        "championId": "TFT10_Aphelios",
+        "cost": 2,
+        "traits": [
+            "Heartsteel",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Bard",
+        "championId": "TFT10_Bard",
+        "cost": 2,
+        "traits": [
+            "Jazz",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Blitzcrank",
+        "championId": "TFT10_Blitzcrank",
+        "cost": 4,
+        "traits": [
+            "Disco",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Caitlyn",
+        "championId": "TFT10_Caitlyn",
+        "cost": 4,
+        "traits": [
+            "8-bit",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Corki",
+        "championId": "TFT10_Corki",
+        "cost": 1,
+        "traits": [
+            "8-bit",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Ekko",
+        "championId": "TFT10_Ekko",
+        "cost": 3,
+        "traits": [
+            "True Damage",
+            "Spellweaver",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Evelynn",
+        "championId": "TFT10_Evelynn",
+        "cost": 1,
+        "traits": [
+            "K/DA",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Ezreal",
+        "championId": "TFT10_Ezreal",
+        "cost": 4,
+        "traits": [
+            "Heartsteel",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Gnar",
+        "championId": "TFT10_Gnar",
+        "cost": 2,
+        "traits": [
+            "Pentakill",
+            "Superfan",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Gragas",
+        "championId": "TFT10_Gragas",
+        "cost": 2,
+        "traits": [
+            "Disco",
+            "Spellweaver",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Illaoi",
+        "championId": "TFT10_Illaoi",
+        "cost": 5,
+        "traits": [
+            "ILLBEATS",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Jax",
+        "championId": "TFT10_Jax",
+        "cost": 2,
+        "traits": [
+            "EDM",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Jhin",
+        "championId": "TFT10_Jhin",
+        "cost": 5,
+        "traits": [
+            "Maestro",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Jinx",
+        "championId": "TFT10_Jinx",
+        "cost": 1,
+        "traits": [
+            "Punk",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Karthus",
+        "championId": "TFT10_Karthus",
+        "cost": 4,
+        "traits": [
+            "Pentakill",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Katarina",
+        "championId": "TFT10_Katarina",
+        "cost": 2,
+        "traits": [
+            "Country",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Kayle",
+        "championId": "TFT10_Kayle",
+        "cost": 2,
+        "traits": [
+            "Pentakill",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Kayn",
+        "championId": "TFT10_Kayn",
+        "cost": 5,
+        "traits": [
+            "Heartsteel",
+            "Edgelord",
+            "Wildcard"
+        ]
+    },
+    {
+        "name": "Kennen",
+        "championId": "TFT10_Kennen",
+        "cost": 1,
+        "traits": [
+            "True Damage",
+            "Superfan",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Lillia",
+        "championId": "TFT10_Lillia",
+        "cost": 1,
+        "traits": [
+            "K/DA",
+            "Superfan",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Lucian",
+        "championId": "TFT10_Lucian",
+        "cost": 5,
+        "traits": [
+            "Jazz",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Lulu",
+        "championId": "TFT10_Lulu",
+        "cost": 3,
+        "traits": [
+            "Hyperpop",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Lux",
+        "championId": "TFT10_Lux",
+        "cost": 3,
+        "traits": [
+            "EDM",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Mordekaiser",
+        "championId": "TFT10_Mordekaiser",
+        "cost": 3,
+        "traits": [
+            "Pentakill",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Nami",
+        "championId": "TFT10_Nami",
+        "cost": 1,
+        "traits": [
+            "Disco",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Neeko",
+        "championId": "TFT10_Neeko",
+        "cost": 3,
+        "traits": [
+            "K/DA",
+            "Superfan",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Pantheon",
+        "championId": "TFT10_Pantheon",
+        "cost": 2,
+        "traits": [
+            "Punk",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Poppy",
+        "championId": "TFT10_Poppy",
+        "cost": 4,
+        "traits": [
+            "Emo",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Qiyana",
+        "championId": "TFT10_Qiyana",
+        "cost": 5,
+        "traits": [
+            "True Damage",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Riven",
+        "championId": "TFT10_Riven",
+        "cost": 3,
+        "traits": [
+            "8-bit",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Samira",
+        "championId": "TFT10_Samira",
+        "cost": 3,
+        "traits": [
+            "Country",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Senna",
+        "championId": "TFT10_Senna",
+        "cost": 2,
+        "traits": [
+            "True Damage",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Seraphine",
+        "championId": "TFT10_Seraphine",
+        "cost": 2,
+        "traits": [
+            "K/DA",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Sett",
+        "championId": "TFT10_Sett",
+        "cost": 3,
+        "traits": [
+            "Heartsteel",
+            "Bruiser",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Sona",
+        "championId": "TFT10_Sona",
+        "cost": 5,
+        "traits": [
+            "Mixmaster",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Taric",
+        "championId": "TFT10_Taric",
+        "cost": 1,
+        "traits": [
+            "Disco",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Thresh",
+        "championId": "TFT10_Thresh",
+        "cost": 4,
+        "traits": [
+            "Country",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Twitch",
+        "championId": "TFT10_Twitch",
+        "cost": 2,
+        "traits": [
+            "Punk",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Urgot",
+        "championId": "TFT10_Urgot",
+        "cost": 3,
+        "traits": [
+            "Country",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Vex",
+        "championId": "TFT10_Vex",
+        "cost": 3,
+        "traits": [
+            "Emo",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Vi",
+        "championId": "TFT10_Vi",
+        "cost": 1,
+        "traits": [
+            "Punk",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Viego",
+        "championId": "TFT10_Viego",
+        "cost": 4,
+        "traits": [
+            "Pentakill",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Yasuo",
+        "championId": "TFT10_Yasuo",
+        "cost": 1,
+        "traits": [
+            "True Damage",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Yone",
+        "championId": "TFT10_Yone",
+        "cost": 3,
+        "traits": [
+            "Heartsteel",
+            "Edgelord",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Yorick",
+        "championId": "TFT10_Yorick",
+        "cost": 5,
+        "traits": [
+            "Pentakill",
+            "Mosher",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Zac",
+        "championId": "TFT10_Zac",
+        "cost": 4,
+        "traits": [
+            "EDM",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Zed",
+        "championId": "TFT10_Zed",
+        "cost": 4,
+        "traits": [
+            "EDM",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Ziggs",
+        "championId": "TFT10_Ziggs",
+        "cost": 5,
+        "traits": [
+            "Hyperpop",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Miss Fortune",
+        "championId": "TFT10_MissFortune",
+        "cost": 3,
+        "traits": [
+            "Jazz",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Olaf",
+        "championId": "TFT10_Olaf",
+        "cost": 1,
+        "traits": [
+            "Pentakill",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Tahm Kench",
+        "championId": "TFT10_TahmKench",
+        "cost": 1,
+        "traits": [
+            "Country",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Twisted Fate",
+        "championId": "TFT10_TwistedFate",
+        "cost": 4,
+        "traits": [
+            "Disco",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "K'Sante",
+        "championId": "TFT10_KSante",
+        "cost": 1,
+        "traits": [
+            "Heartsteel",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Kai'Sa",
+        "championId": "TFT10_Kaisa",
+        "cost": 2,
+        "traits": [
+            "K/DA",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Disco Ball",
+        "championId": "TFT10_DiscoBall",
+        "cost": 11,
+        "traits": [
+            "Disco"
+        ]
+    },
+    {
+        "name": "Yorick",
+        "championId": "TFT10_YorickGhoulMelee",
+        "cost": 11,
+        "traits": [
+            "Pentakill"
+        ]
+    },
+    {
+        "name": "LuluPolymorphCritter",
+        "championId": "TFT10_LuluPolymorph",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "Tentacle",
+        "championId": "TFT10_IllaoiMinion",
+        "cost": 9,
+        "traits": []
+    },
+    {
+        "name": "Akali",
+        "championId": "TFT10_Akali_TrueDamage",
+        "cost": 4,
+        "traits": [
+            "True Damage",
+            "Executioner",
+            "Breakout"
+        ]
+    },
+    {
+        "name": "SightWard",
+        "championId": "TFT10_DesperadoProp",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "The Dreadsteed",
+        "championId": "TFT10_CountryHecarim",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "SightWard",
+        "championId": "TFT10_PBJProp",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "Garen",
+        "championId": "TFT10_Garen",
+        "cost": 2,
+        "traits": [
+            "8-bit",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Ahri",
+        "championId": "TFT10_Ahri",
+        "cost": 4,
+        "traits": [
+            "K/DA",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Akali",
+        "championId": "TFT10_Akali",
+        "cost": 4,
+        "traits": [
+            "K/DA",
+            "Executioner",
+            "Breakout"
+        ]
+    },
+    {
+        "name": "Amumu",
+        "championId": "TFT10_Amumu",
+        "cost": 3,
+        "traits": [
+            "Emo",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Annie",
+        "championId": "TFT10_Annie",
+        "cost": 1,
+        "traits": [
+            "Emo",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Aphelios",
+        "championId": "TFT10_Aphelios",
+        "cost": 2,
+        "traits": [
+            "Heartsteel",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Bard",
+        "championId": "TFT10_Bard",
+        "cost": 2,
+        "traits": [
+            "Jazz",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Blitzcrank",
+        "championId": "TFT10_Blitzcrank",
+        "cost": 4,
+        "traits": [
+            "Disco",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Caitlyn",
+        "championId": "TFT10_Caitlyn",
+        "cost": 4,
+        "traits": [
+            "8-bit",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Corki",
+        "championId": "TFT10_Corki",
+        "cost": 1,
+        "traits": [
+            "8-bit",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Ekko",
+        "championId": "TFT10_Ekko",
+        "cost": 3,
+        "traits": [
+            "True Damage",
+            "Spellweaver",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Evelynn",
+        "championId": "TFT10_Evelynn",
+        "cost": 1,
+        "traits": [
+            "K/DA",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Ezreal",
+        "championId": "TFT10_Ezreal",
+        "cost": 4,
+        "traits": [
+            "Heartsteel",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Gnar",
+        "championId": "TFT10_Gnar",
+        "cost": 2,
+        "traits": [
+            "Pentakill",
+            "Superfan",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Gragas",
+        "championId": "TFT10_Gragas",
+        "cost": 2,
+        "traits": [
+            "Disco",
+            "Spellweaver",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Illaoi",
+        "championId": "TFT10_Illaoi",
+        "cost": 5,
+        "traits": [
+            "ILLBEATS",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Jax",
+        "championId": "TFT10_Jax",
+        "cost": 2,
+        "traits": [
+            "EDM",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Jhin",
+        "championId": "TFT10_Jhin",
+        "cost": 5,
+        "traits": [
+            "Maestro",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Jinx",
+        "championId": "TFT10_Jinx",
+        "cost": 1,
+        "traits": [
+            "Punk",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Karthus",
+        "championId": "TFT10_Karthus",
+        "cost": 4,
+        "traits": [
+            "Pentakill",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Katarina",
+        "championId": "TFT10_Katarina",
+        "cost": 2,
+        "traits": [
+            "Country",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Kayle",
+        "championId": "TFT10_Kayle",
+        "cost": 2,
+        "traits": [
+            "Pentakill",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Kayn",
+        "championId": "TFT10_Kayn",
+        "cost": 5,
+        "traits": [
+            "Heartsteel",
+            "Edgelord",
+            "Wildcard"
+        ]
+    },
+    {
+        "name": "Kennen",
+        "championId": "TFT10_Kennen",
+        "cost": 1,
+        "traits": [
+            "True Damage",
+            "Superfan",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Lillia",
+        "championId": "TFT10_Lillia",
+        "cost": 1,
+        "traits": [
+            "K/DA",
+            "Superfan",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Lucian",
+        "championId": "TFT10_Lucian",
+        "cost": 5,
+        "traits": [
+            "Jazz",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Lulu",
+        "championId": "TFT10_Lulu",
+        "cost": 3,
+        "traits": [
+            "Hyperpop",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Lux",
+        "championId": "TFT10_Lux",
+        "cost": 3,
+        "traits": [
+            "EDM",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Mordekaiser",
+        "championId": "TFT10_Mordekaiser",
+        "cost": 3,
+        "traits": [
+            "Pentakill",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Nami",
+        "championId": "TFT10_Nami",
+        "cost": 1,
+        "traits": [
+            "Disco",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Neeko",
+        "championId": "TFT10_Neeko",
+        "cost": 3,
+        "traits": [
+            "K/DA",
+            "Superfan",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Pantheon",
+        "championId": "TFT10_Pantheon",
+        "cost": 2,
+        "traits": [
+            "Punk",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Poppy",
+        "championId": "TFT10_Poppy",
+        "cost": 4,
+        "traits": [
+            "Emo",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Qiyana",
+        "championId": "TFT10_Qiyana",
+        "cost": 5,
+        "traits": [
+            "True Damage",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Riven",
+        "championId": "TFT10_Riven",
+        "cost": 3,
+        "traits": [
+            "8-bit",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Samira",
+        "championId": "TFT10_Samira",
+        "cost": 3,
+        "traits": [
+            "Country",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Senna",
+        "championId": "TFT10_Senna",
+        "cost": 2,
+        "traits": [
+            "True Damage",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Seraphine",
+        "championId": "TFT10_Seraphine",
+        "cost": 2,
+        "traits": [
+            "K/DA",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Sett",
+        "championId": "TFT10_Sett",
+        "cost": 3,
+        "traits": [
+            "Heartsteel",
+            "Bruiser",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Sona",
+        "championId": "TFT10_Sona",
+        "cost": 5,
+        "traits": [
+            "Mixmaster",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Taric",
+        "championId": "TFT10_Taric",
+        "cost": 1,
+        "traits": [
+            "Disco",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Thresh",
+        "championId": "TFT10_Thresh",
+        "cost": 4,
+        "traits": [
+            "Country",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Twitch",
+        "championId": "TFT10_Twitch",
+        "cost": 2,
+        "traits": [
+            "Punk",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Urgot",
+        "championId": "TFT10_Urgot",
+        "cost": 3,
+        "traits": [
+            "Country",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Vex",
+        "championId": "TFT10_Vex",
+        "cost": 3,
+        "traits": [
+            "Emo",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Vi",
+        "championId": "TFT10_Vi",
+        "cost": 1,
+        "traits": [
+            "Punk",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Viego",
+        "championId": "TFT10_Viego",
+        "cost": 4,
+        "traits": [
+            "Pentakill",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Yasuo",
+        "championId": "TFT10_Yasuo",
+        "cost": 1,
+        "traits": [
+            "True Damage",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Yone",
+        "championId": "TFT10_Yone",
+        "cost": 3,
+        "traits": [
+            "Heartsteel",
+            "Edgelord",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Yorick",
+        "championId": "TFT10_Yorick",
+        "cost": 5,
+        "traits": [
+            "Pentakill",
+            "Mosher",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Zac",
+        "championId": "TFT10_Zac",
+        "cost": 4,
+        "traits": [
+            "EDM",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Zed",
+        "championId": "TFT10_Zed",
+        "cost": 4,
+        "traits": [
+            "EDM",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Ziggs",
+        "championId": "TFT10_Ziggs",
+        "cost": 5,
+        "traits": [
+            "Hyperpop",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Miss Fortune",
+        "championId": "TFT10_MissFortune",
+        "cost": 3,
+        "traits": [
+            "Jazz",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Olaf",
+        "championId": "TFT10_Olaf",
+        "cost": 1,
+        "traits": [
+            "Pentakill",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Tahm Kench",
+        "championId": "TFT10_TahmKench",
+        "cost": 1,
+        "traits": [
+            "Country",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Twisted Fate",
+        "championId": "TFT10_TwistedFate",
+        "cost": 4,
+        "traits": [
+            "Disco",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "K'Sante",
+        "championId": "TFT10_KSante",
+        "cost": 1,
+        "traits": [
+            "Heartsteel",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Kai'Sa",
+        "championId": "TFT10_Kaisa",
+        "cost": 2,
+        "traits": [
+            "K/DA",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Disco Ball",
+        "championId": "TFT10_DiscoBall",
+        "cost": 11,
+        "traits": [
+            "Disco"
+        ]
+    },
+    {
+        "name": "Yorick",
+        "championId": "TFT10_YorickGhoulMelee",
+        "cost": 11,
+        "traits": [
+            "Pentakill"
+        ]
+    },
+    {
+        "name": "LuluPolymorphCritter",
+        "championId": "TFT10_LuluPolymorph",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "Tentacle",
+        "championId": "TFT10_IllaoiMinion",
+        "cost": 9,
+        "traits": []
+    },
+    {
+        "name": "Akali",
+        "championId": "TFT10_Akali_TrueDamage",
+        "cost": 4,
+        "traits": [
+            "True Damage",
+            "Executioner",
+            "Breakout"
+        ]
+    },
+    {
+        "name": "SightWard",
+        "championId": "TFT10_DesperadoProp",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "The Dreadsteed",
+        "championId": "TFT10_CountryHecarim",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "SightWard",
+        "championId": "TFT10_PBJProp",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "Garen",
+        "championId": "TFT10_Garen",
+        "cost": 2,
+        "traits": [
+            "8-bit",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Ahri",
+        "championId": "TFT10_Ahri",
+        "cost": 4,
+        "traits": [
+            "K/DA",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Akali",
+        "championId": "TFT10_Akali",
+        "cost": 4,
+        "traits": [
+            "K/DA",
+            "Executioner",
+            "Breakout"
+        ]
+    },
+    {
+        "name": "Amumu",
+        "championId": "TFT10_Amumu",
+        "cost": 3,
+        "traits": [
+            "Emo",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Annie",
+        "championId": "TFT10_Annie",
+        "cost": 1,
+        "traits": [
+            "Emo",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Aphelios",
+        "championId": "TFT10_Aphelios",
+        "cost": 2,
+        "traits": [
+            "Heartsteel",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Bard",
+        "championId": "TFT10_Bard",
+        "cost": 2,
+        "traits": [
+            "Jazz",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Blitzcrank",
+        "championId": "TFT10_Blitzcrank",
+        "cost": 4,
+        "traits": [
+            "Disco",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Caitlyn",
+        "championId": "TFT10_Caitlyn",
+        "cost": 4,
+        "traits": [
+            "8-bit",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Corki",
+        "championId": "TFT10_Corki",
+        "cost": 1,
+        "traits": [
+            "8-bit",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Ekko",
+        "championId": "TFT10_Ekko",
+        "cost": 3,
+        "traits": [
+            "True Damage",
+            "Spellweaver",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Evelynn",
+        "championId": "TFT10_Evelynn",
+        "cost": 1,
+        "traits": [
+            "K/DA",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Ezreal",
+        "championId": "TFT10_Ezreal",
+        "cost": 4,
+        "traits": [
+            "Heartsteel",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Gnar",
+        "championId": "TFT10_Gnar",
+        "cost": 2,
+        "traits": [
+            "Pentakill",
+            "Superfan",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Gragas",
+        "championId": "TFT10_Gragas",
+        "cost": 2,
+        "traits": [
+            "Disco",
+            "Spellweaver",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Illaoi",
+        "championId": "TFT10_Illaoi",
+        "cost": 5,
+        "traits": [
+            "ILLBEATS",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Jax",
+        "championId": "TFT10_Jax",
+        "cost": 2,
+        "traits": [
+            "EDM",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Jhin",
+        "championId": "TFT10_Jhin",
+        "cost": 5,
+        "traits": [
+            "Maestro",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Jinx",
+        "championId": "TFT10_Jinx",
+        "cost": 1,
+        "traits": [
+            "Punk",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Karthus",
+        "championId": "TFT10_Karthus",
+        "cost": 4,
+        "traits": [
+            "Pentakill",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Katarina",
+        "championId": "TFT10_Katarina",
+        "cost": 2,
+        "traits": [
+            "Country",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Kayle",
+        "championId": "TFT10_Kayle",
+        "cost": 2,
+        "traits": [
+            "Pentakill",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Kayn",
+        "championId": "TFT10_Kayn",
+        "cost": 5,
+        "traits": [
+            "Heartsteel",
+            "Edgelord",
+            "Wildcard"
+        ]
+    },
+    {
+        "name": "Kennen",
+        "championId": "TFT10_Kennen",
+        "cost": 1,
+        "traits": [
+            "True Damage",
+            "Superfan",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Lillia",
+        "championId": "TFT10_Lillia",
+        "cost": 1,
+        "traits": [
+            "K/DA",
+            "Superfan",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Lucian",
+        "championId": "TFT10_Lucian",
+        "cost": 5,
+        "traits": [
+            "Jazz",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Lulu",
+        "championId": "TFT10_Lulu",
+        "cost": 3,
+        "traits": [
+            "Hyperpop",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Lux",
+        "championId": "TFT10_Lux",
+        "cost": 3,
+        "traits": [
+            "EDM",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Mordekaiser",
+        "championId": "TFT10_Mordekaiser",
+        "cost": 3,
+        "traits": [
+            "Pentakill",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Nami",
+        "championId": "TFT10_Nami",
+        "cost": 1,
+        "traits": [
+            "Disco",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Neeko",
+        "championId": "TFT10_Neeko",
+        "cost": 3,
+        "traits": [
+            "K/DA",
+            "Superfan",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Pantheon",
+        "championId": "TFT10_Pantheon",
+        "cost": 2,
+        "traits": [
+            "Punk",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Poppy",
+        "championId": "TFT10_Poppy",
+        "cost": 4,
+        "traits": [
+            "Emo",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Qiyana",
+        "championId": "TFT10_Qiyana",
+        "cost": 5,
+        "traits": [
+            "True Damage",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Riven",
+        "championId": "TFT10_Riven",
+        "cost": 3,
+        "traits": [
+            "8-bit",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Samira",
+        "championId": "TFT10_Samira",
+        "cost": 3,
+        "traits": [
+            "Country",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Senna",
+        "championId": "TFT10_Senna",
+        "cost": 2,
+        "traits": [
+            "True Damage",
+            "Rapidfire"
+        ]
+    },
+    {
+        "name": "Seraphine",
+        "championId": "TFT10_Seraphine",
+        "cost": 2,
+        "traits": [
+            "K/DA",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Sett",
+        "championId": "TFT10_Sett",
+        "cost": 3,
+        "traits": [
+            "Heartsteel",
+            "Bruiser",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Sona",
+        "championId": "TFT10_Sona",
+        "cost": 5,
+        "traits": [
+            "Mixmaster",
+            "Spellweaver"
+        ]
+    },
+    {
+        "name": "Taric",
+        "championId": "TFT10_Taric",
+        "cost": 1,
+        "traits": [
+            "Disco",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Thresh",
+        "championId": "TFT10_Thresh",
+        "cost": 4,
+        "traits": [
+            "Country",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Twitch",
+        "championId": "TFT10_Twitch",
+        "cost": 2,
+        "traits": [
+            "Punk",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Urgot",
+        "championId": "TFT10_Urgot",
+        "cost": 3,
+        "traits": [
+            "Country",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Vex",
+        "championId": "TFT10_Vex",
+        "cost": 3,
+        "traits": [
+            "Emo",
+            "Executioner"
+        ]
+    },
+    {
+        "name": "Vi",
+        "championId": "TFT10_Vi",
+        "cost": 1,
+        "traits": [
+            "Punk",
+            "Mosher"
+        ]
+    },
+    {
+        "name": "Viego",
+        "championId": "TFT10_Viego",
+        "cost": 4,
+        "traits": [
+            "Pentakill",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Yasuo",
+        "championId": "TFT10_Yasuo",
+        "cost": 1,
+        "traits": [
+            "True Damage",
+            "Edgelord"
+        ]
+    },
+    {
+        "name": "Yone",
+        "championId": "TFT10_Yone",
+        "cost": 3,
+        "traits": [
+            "Heartsteel",
+            "Edgelord",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Yorick",
+        "championId": "TFT10_Yorick",
+        "cost": 5,
+        "traits": [
+            "Pentakill",
+            "Mosher",
+            "Guardian"
+        ]
+    },
+    {
+        "name": "Zac",
+        "championId": "TFT10_Zac",
+        "cost": 4,
+        "traits": [
+            "EDM",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Zed",
+        "championId": "TFT10_Zed",
+        "cost": 4,
+        "traits": [
+            "EDM",
+            "Crowd Diver"
+        ]
+    },
+    {
+        "name": "Ziggs",
+        "championId": "TFT10_Ziggs",
+        "cost": 5,
+        "traits": [
+            "Hyperpop",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "Miss Fortune",
+        "championId": "TFT10_MissFortune",
+        "cost": 3,
+        "traits": [
+            "Jazz",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Olaf",
+        "championId": "TFT10_Olaf",
+        "cost": 1,
+        "traits": [
+            "Pentakill",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Tahm Kench",
+        "championId": "TFT10_TahmKench",
+        "cost": 1,
+        "traits": [
+            "Country",
+            "Bruiser"
+        ]
+    },
+    {
+        "name": "Twisted Fate",
+        "championId": "TFT10_TwistedFate",
+        "cost": 4,
+        "traits": [
+            "Disco",
+            "Dazzler"
+        ]
+    },
+    {
+        "name": "K'Sante",
+        "championId": "TFT10_KSante",
+        "cost": 1,
+        "traits": [
+            "Heartsteel",
+            "Sentinel"
+        ]
+    },
+    {
+        "name": "Kai'Sa",
+        "championId": "TFT10_Kaisa",
+        "cost": 2,
+        "traits": [
+            "K/DA",
+            "Big Shot"
+        ]
+    },
+    {
+        "name": "Disco Ball",
+        "championId": "TFT10_DiscoBall",
+        "cost": 11,
+        "traits": [
+            "Disco"
+        ]
+    },
+    {
+        "name": "Yorick",
+        "championId": "TFT10_YorickGhoulMelee",
+        "cost": 11,
+        "traits": [
+            "Pentakill"
+        ]
+    },
+    {
+        "name": "LuluPolymorphCritter",
+        "championId": "TFT10_LuluPolymorph",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "Tentacle",
+        "championId": "TFT10_IllaoiMinion",
+        "cost": 9,
+        "traits": []
+    },
+    {
+        "name": "Akali",
+        "championId": "TFT10_Akali_TrueDamage",
+        "cost": 4,
+        "traits": [
+            "True Damage",
+            "Executioner",
+            "Breakout"
+        ]
+    },
+    {
+        "name": "SightWard",
+        "championId": "TFT10_DesperadoProp",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "The Dreadsteed",
+        "championId": "TFT10_CountryHecarim",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "SightWard",
+        "championId": "TFT10_PBJProp",
+        "cost": 11,
+        "traits": []
+    },
+    {
+        "name": "Garen",
+        "championId": "TFT10_Garen",
+        "cost": 2,
+        "traits": [
+            "8-bit",
+            "Sentinel"
+        ]
+    }
+]
