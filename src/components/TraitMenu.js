@@ -25,7 +25,7 @@ export class TraitMenu extends React.Component {
     // get unique
     var flags = {}
     var newStage = [];
-    for (var index = 0; index < 18; index++){
+    for (var index = 9; index < 18; index++){
         var entry = stage[index];
         if (!flags[entry.name]){
             flags[entry.name] = true;
@@ -60,7 +60,7 @@ export class TraitMenu extends React.Component {
     for (var i = 0; i < Math.min(keys.length, 10); i++){
         // only top 10 traits
         traitArr.push(
-            <TraitTile trait={keys[i].toLowerCase().replace("/", "")}
+            <TraitTile trait={keys[i].toLowerCase().replace("/", "").replace("-","")}
             count={traitCounter[keys[i]]}></TraitTile>
         );
     }

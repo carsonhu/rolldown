@@ -522,6 +522,7 @@ export default class App extends React.Component {
     const xp_text = (level === 9) ? "Max" : this.state['xp'] + "/" + Constants.XP_THRESH[level];
     const heldChamp = this.state.stage[this.state.heldChamp];
     const sellCost = (heldChamp && heldChamp['name'] !== "") ? Constants.SELL_RATE[heldChamp['cost']][heldChamp['level'] - 1] : 0;
+
     return (
       <div onKeyDown={this.handleKeyPress}>
         <img className="background" src={images['tft-map-background.jpg']}/>
