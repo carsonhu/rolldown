@@ -36,11 +36,15 @@ export class ChampionTile extends React.Component {
   render() {
     let championName = this.props.champion['name'];
     let championCost = this.props.champion['cost'];
+    let isHeadliner = this.props.isHeadliner;
     let championImagePath = `set${SET}/splash/` + championName.replace(" ", "").replace("'", "").toLowerCase() + ".png";
     // console.log(championImagePath)
     let championTraits = this.props.champion['traits'];
     let tileImagePath = "shop-tile/tile" + championCost + ".png";
+    let headlinerImagePath = "headliner_mask.png"
+    let headlinerIconPath = "headliner_icon.png"
     let traitTexts = [];
+    let headlinerImgs = [];
     for(let trait of championTraits) {
       let traitImagePath = `set${SET}/traits/` + trait.toLowerCase().replace(" ", "").replace("-", "").replace("/", "") + ".png";
       traitTexts.push(
@@ -50,6 +54,16 @@ export class ChampionTile extends React.Component {
         </div>
       );
     }
+
+    if(isHeadliner){
+      headlinerImgs.push(
+      <div>
+      <img className="headliner-mask" src={images[headlinerImagePath]}/>
+      <img className="headliner-icon" src={images[headlinerIconPath]}/>
+      </div>
+      )
+    }
+
     let goldElements = championCost ? (
       <div className="d-inline sm-font champ-cost"><img className="d-inline gold-icon-sm" src={images['gold.png']}/>{championCost}</div>
     ) : "";
@@ -62,6 +76,7 @@ export class ChampionTile extends React.Component {
       >
         <img className="champ-pic" src={images[championImagePath]} />
         <img className="champ-tile-window" src={images[tileImagePath]}/>
+        {headlinerImgs}
         <div className="champ-trait-text">
           {traitTexts}
         </div>

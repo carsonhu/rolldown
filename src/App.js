@@ -201,7 +201,7 @@ export default class App extends React.Component {
   handleLvlInput(e) {
     if(!e.target.value) return;
     let levelValue = (e.target.value >= 2) ? e.target.value : 2;
-    levelValue = (levelValue < 10) ? levelValue : 9;
+    levelValue = (levelValue < 11) ? levelValue : 10;
     this.playSound('buyxp.ogg');
     this.setState({
       level: levelValue,
@@ -212,7 +212,7 @@ export default class App extends React.Component {
   //==Button Click Handling==//
 
   buyXPClicked() {
-    if(this.state['level'] === 9 || this.state['gold'] < 4) {
+    if(this.state['level'] === 10 || this.state['gold'] < 4) {
       return;
     }
     this.playSound('buyxp.ogg');
@@ -388,7 +388,9 @@ export default class App extends React.Component {
       name: "",
       cost: 0,
       level: 0,
-      traits: []
+      traits: [],
+      headliner: false,
+      headlinerTrait: ""
     };
     this.setState({
       gold: myGold,
@@ -581,11 +583,11 @@ export default class App extends React.Component {
               <div><BuyXPButton onClick={() => this.buyXPClicked()} gold={this.state.gold}/></div>
               <div><RefreshButton onClick={() => this.refreshClicked()} gold={this.state.gold}/></div>
             </div>
-            <ChampionTile champion={this.state['store'][0]} onClick={() => this.checkForThree(this.buyChamp(0))}/>
-            <ChampionTile champion={this.state['store'][1]} onClick={() => this.checkForThree(this.buyChamp(1))}/>
-            <ChampionTile champion={this.state['store'][2]} onClick={() => this.checkForThree(this.buyChamp(2))}/>
-            <ChampionTile champion={this.state['store'][3]} onClick={() => this.checkForThree(this.buyChamp(3))}/>
-            <ChampionTile champion={this.state['store'][4]} onClick={() => this.checkForThree(this.buyChamp(4))}/>
+            <ChampionTile champion={this.state['store'][0]} isHeadliner={false} onClick={() => this.checkForThree(this.buyChamp(0))}/>
+            <ChampionTile champion={this.state['store'][1]} isHeadliner={false} onClick={() => this.checkForThree(this.buyChamp(1))}/>
+            <ChampionTile champion={this.state['store'][2]} isHeadliner={false} onClick={() => this.checkForThree(this.buyChamp(2))}/>
+            <ChampionTile champion={this.state['store'][3]} isHeadliner={false} onClick={() => this.checkForThree(this.buyChamp(3))}/>
+            <ChampionTile champion={this.state['store'][4]} isHeadliner={true} onClick={() => this.checkForThree(this.buyChamp(4))}/>
           </div>
           <SellChampButton
             onClick={() => this.sellChamp(this.state.heldChamp)}
