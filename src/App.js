@@ -15,6 +15,8 @@ import { SellChampButton } from "./components/SellChampButton.js"
 import { KeybindButton } from "./components/KeybindButton.js"
 import { ChampionButton } from "./components/ChampionButton.js"
 
+import { Champion } from "./components/Champion.js"
+
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faDice } from '@fortawesome/free-solid-svg-icons'
 import { faGithub } from '@fortawesome/free-brands-svg-icons'
@@ -58,7 +60,8 @@ export default class App extends React.Component {
         name: "",
         cost: 0,
         level: 0,
-        traits: []
+        traits: [],
+        isHeadliner: false
       };
     }
     this.state = {
@@ -201,7 +204,7 @@ export default class App extends React.Component {
   handleLvlInput(e) {
     if(!e.target.value) return;
     let levelValue = (e.target.value >= 2) ? e.target.value : 2;
-    levelValue = (levelValue < 11) ? levelValue : 10;
+    levelValue = (levelValue < 10) ? levelValue : 10;
     this.playSound('buyxp.ogg');
     this.setState({
       level: levelValue,
@@ -521,9 +524,11 @@ export default class App extends React.Component {
     const level = this.state['level'];
     console.log("this state hovered");
     console.log(this.state.hovered);
-    const xp_text = (level === 9) ? "Max" : this.state['xp'] + "/" + Constants.XP_THRESH[level];
+    const xp_text = (level === 10) ? "Max" : this.state['xp'] + "/" + Constants.XP_THRESH[level];
     const heldChamp = this.state.stage[this.state.heldChamp];
     const sellCost = (heldChamp && heldChamp['name'] !== "") ? Constants.SELL_RATE[heldChamp['cost']][heldChamp['level'] - 1] : 0;
+
+    // add function to check whether rightmost slot should be headliner
 
     return (
       <div onKeyDown={this.handleKeyPress}>
