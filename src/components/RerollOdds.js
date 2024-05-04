@@ -12,13 +12,13 @@ export function RerollOdds(props) {
   const level = props.level;
   return (
     <div className="d-inline reroll-odds">
-      <img className="reroll-odds-background" src={RerollOddsBackground}/>
+      <img className="reroll-odds-background" src={RerollOddsBackground} alt="Reroll odds"/>
       <div className="reroll-content">
-        <img className="reroll-gem" src={Gem1}/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][0]}%</h6>
-        <img className="reroll-gem" src={Gem2}/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][1]}%</h6>
-        <img className="reroll-gem" src={Gem3}/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][2]}%</h6>
-        <img className="reroll-gem" src={Gem4}/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][3]}%</h6>
-        <img className="reroll-gem" src={Gem5}/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][4]}%</h6>
+        <img className="reroll-gem" src={Gem1} alt="Reroll 1-cost"/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][0]}%</h6>
+        <img className="reroll-gem" src={Gem2} alt="Reroll 2-cost"/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][1]}%</h6>
+        <img className="reroll-gem" src={Gem3} alt="Reroll 3-cost"/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][2]}%</h6>
+        <img className="reroll-gem" src={Gem4} alt="Reroll 4-cost"/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][3]}%</h6>
+        <img className="reroll-gem" src={Gem5} alt="Reroll 5-cost"/><h6 className="d-inline sm-font">{Constants.REROLL_ODDS[level][4]}%</h6>
       </div>
     </div>
   )

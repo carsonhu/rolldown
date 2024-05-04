@@ -26,10 +26,10 @@ export function BuyXPButton(props) {
       onMouseOver={handleMouseOver}
       onMouseLeave={handleMouseLeave}
     >
-      <img className="left-btn-ui" src={xpButton} />
+      <img className="left-btn-ui" src={xpButton} alt="Buy XP"/>
       <div className="left-btn-text">
         <div className="med-font">Buy XP</div>
-        <img className="d-inline gold-icon-sm" src={Gold}/><div className="d-inline sm-font">4</div>
+        <img className="d-inline gold-icon-sm" src={Gold} alt="Gold"/><div className="d-inline sm-font">4</div>
       </div>
     </button>
   );

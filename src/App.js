@@ -28,6 +28,12 @@ function importAll(r) {
 }
 const images = importAll(require.context('./images', true, /\.(png|jpe?g|svg)$/));
 const audio = importAll(require.context('./audio', true, /\.(ogg)$/));
+let empty_champion = {
+  name: "",
+  cost: 0,
+  level: 0,
+  traits: [],
+};
 let lastClick = Date.now();
 var delay = 100;
 /* Todos:
@@ -41,6 +47,10 @@ export default class App extends React.Component {
     let myStore = [];
     for(let i = 0; i < 5; i++) {
       let champRolled = this.reroll(2);
+      console.log("rolled champ");
+      console.log(champRolled)
+      // CHANGE TO CHAMPION CLASS
+      // myStore.push(champRolled.copy());
       myStore.push({
         name: champRolled['name'],
         cost: champRolled['cost'],
@@ -56,13 +66,9 @@ export default class App extends React.Component {
     // the bench. TODO: Separate bench and board
     let myStage = {};
     for(let i = 0; i < 18; i++) {
-      myStage[i] = {
-        name: "",
-        cost: 0,
-        level: 0,
-        traits: [],
-        isHeadliner: false
-      };
+      // CHANGE TO CHAMPION CLASS
+      // myStage[i].setEmpty();
+      myStage[i] = empty_champion;
     }
     this.state = {
       level: 2,
@@ -253,6 +259,11 @@ export default class App extends React.Component {
 
   //==Helper Functions==//
 
+  printAllChamps(){
+    let myStore = this.state['store']
+    
+  }
+
   checkThreeStars(myStage){
       let threeStars = [];
       for(let i = 0; i < 18; i++){
@@ -277,13 +288,15 @@ export default class App extends React.Component {
         Constants.championPool[champCost].push(myStore[i]);
       }
       let myStage = this.state['stage'];
-      // let threeStars = this.checkThreeStars(myStage);
+      let threeStars = this.checkThreeStars(myStage);
       
       let champRolled = this.reroll(this.state.level);
-      // while (threeStars.includes(champRolled['name'])){
-      //   champRolled = this.reroll(this.state.level);
-      // }
+      while (threeStars.includes(champRolled['name'])){
+        champRolled = this.reroll(this.state.level);
+      }
 
+      // replace with empty champ
+      // myStore[i] = champRolled.copy();
       myStore[i] = {
         name: champRolled['name'],
         cost: champRolled['cost'],
@@ -312,6 +325,7 @@ export default class App extends React.Component {
     let randChamp = Math.floor(Math.random() * Constants.championPool[costRolled].length);
     let rolledChamp = Constants.championPool[costRolled][randChamp];
     Constants.championPool[costRolled].splice(randChamp, 1);
+    
     return rolledChamp;
   }
 
@@ -336,13 +350,9 @@ export default class App extends React.Component {
     this.playSound('buychamp.ogg');
     myGold -= champCost;
     myStageLength++;
-    myStore[i] = {
-      name: "",
-      cost: 0,
-      traits: []
-    };
     for(let j = 0; j < 18; j++) {
       if(myStage[j]['name'] === "") {
+        // myStage[j] = myStore[i].copy()
         myStage[j] = {
           name: champName,
           cost: champCost,
@@ -352,6 +362,14 @@ export default class App extends React.Component {
         break;
       }
     }
+    // replace with empty champ
+    //  myStore[i].setEmpty();
+    myStore[i] = empty_champion;
+    // myStore[i] = {
+    //   name: "",
+    //   cost: 0,
+    //   traits: []
+    // };
     this.setState ({
       store: myStore,
       gold: myGold,
@@ -387,14 +405,14 @@ export default class App extends React.Component {
     player.volume = 0.04;
     player.play();
     myGold += Constants.SELL_RATE[champCost][champLevel - 1];
-    myStage[i] = {
-      name: "",
-      cost: 0,
-      level: 0,
-      traits: [],
-      headliner: false,
-      headlinerTrait: ""
-    };
+    // myStage[i].setEmpty();
+    myStage[i] = empty_champion;
+    // myStage[i] = {
+    //   name: "",
+    //   cost: 0,
+    //   level: 0,
+    //   traits: [],
+    // };
     this.setState({
       gold: myGold,
       stage: myStage,
@@ -420,18 +438,20 @@ export default class App extends React.Component {
         if(champOccurences[champLevel].length === 3 && champLevel < 3) {
           myStageLength -= 2;
           myStage[champOccurences[champLevel][0]]['level']++;
-          myStage[champOccurences[champLevel][1]] = {
-            name: "",
-            cost: 0,
-            level: 0,
-            traits: []
-          };
-          myStage[champOccurences[champLevel][2]] = {
-            name: "",
-            cost: 0,
-            level: 0,
-            traits: []
-          };
+          myStage[champOccurences[champLevel][1]] = empty_champion;
+          // myStage[champOccurences[champLevel][1]] = {
+          //   name: "",
+          //   cost: 0,
+          //   level: 0,
+          //   traits: []
+          // };
+          myStage[champOccurences[champLevel][2]] = empty_champion;
+          // myStage[champOccurences[champLevel][2]] = {
+          //   name: "",
+          //   cost: 0,
+          //   level: 0,
+          //   traits: []
+          // };
           this.setState({
             stage: myStage,
             stageLength: myStageLength
@@ -469,18 +489,22 @@ export default class App extends React.Component {
     }
     if((storeCount + stageCount) >= 3) {
       if(myGold < champCost * storeCount) return;
-      myStore[i] = {
-        name: "",
-        cost: 0,
-        traits: []
-      };
+      // myStore[i].setEmpty();
+      myStore[i] = empty_champion;
+      // myStore[i] = {
+      //   name: "",
+      //   cost: 0,
+      //   traits: []
+      // };
       for(let j = 0, k = 1; k < (3 - stageCount) && k < 3; j++) {
         if(myStore[j]['name'] === champName) {
-          myStore[j] = {
-            name: "",
-            cost: 0,
-            traits: []
-          };
+          // myStore[j].setEmpty();
+          myStore[j] = empty_champion;
+          // myStore[j] = {
+          //   name: "",
+          //   cost: 0,
+          //   traits: []
+          // };
           k++;
         }
       }
@@ -528,11 +552,10 @@ export default class App extends React.Component {
     const heldChamp = this.state.stage[this.state.heldChamp];
     const sellCost = (heldChamp && heldChamp['name'] !== "") ? Constants.SELL_RATE[heldChamp['cost']][heldChamp['level'] - 1] : 0;
 
-    // add function to check whether rightmost slot should be headliner
 
     return (
       <div onKeyDown={this.handleKeyPress}>
-        <img className="background" src={images['tft-map-background.jpg']}/>
+        <img className="background" src={images['tft-map-background.jpg']} alt="background"/>
         <KeybindButton onClick={() => {
           let audioPath = this.state.keybindMenuHidden ? "menuopen.ogg" : "menuclose.ogg";
           this.playSound(audioPath);
@@ -568,7 +591,7 @@ export default class App extends React.Component {
         <div className="shop">
           <RerollOdds level={this.state['level']}/>
           <div className="display-bar">
-            <img className="left-ui-corner" src={images['left-ui-corner.png']}/>
+            <img className="left-ui-corner" src={images['left-ui-corner.png']} alt="Left UI"/>
             <h2 className="level d-inline lrg-font">Lvl.
               <input type="number" className="level-input"
                 value={this.state['level']}
@@ -576,9 +599,9 @@ export default class App extends React.Component {
                 onClick={(e) => {e.target.value = null}}/>
             </h2>
             <h5 className="exp d-inline med-font">{xp_text}</h5>
-            <img className="gold-background" src={images['gold-background.png']}/>
+            <img className="gold-background" src={images['gold-background.png']} alt="Gold background"/>
             <div className="gold d-inline">
-              <img className="d-inline gold-icon-lrg" src={images['gold.png']}/>
+              <img className="d-inline gold-icon-lrg" src={images['gold.png']} alt="Gold icon"/>
               <input type="number" className="gold-input"
                 value={this.state['gold']} onChange={this.handleGoldInput}/>
             </div>
@@ -588,11 +611,11 @@ export default class App extends React.Component {
               <div><BuyXPButton onClick={() => this.buyXPClicked()} gold={this.state.gold}/></div>
               <div><RefreshButton onClick={() => this.refreshClicked()} gold={this.state.gold}/></div>
             </div>
-            <ChampionTile champion={this.state['store'][0]} isHeadliner={false} onClick={() => this.checkForThree(this.buyChamp(0))}/>
-            <ChampionTile champion={this.state['store'][1]} isHeadliner={false} onClick={() => this.checkForThree(this.buyChamp(1))}/>
-            <ChampionTile champion={this.state['store'][2]} isHeadliner={false} onClick={() => this.checkForThree(this.buyChamp(2))}/>
-            <ChampionTile champion={this.state['store'][3]} isHeadliner={false} onClick={() => this.checkForThree(this.buyChamp(3))}/>
-            <ChampionTile champion={this.state['store'][4]} isHeadliner={true} onClick={() => this.checkForThree(this.buyChamp(4))}/>
+            <ChampionTile champion={this.state['store'][0]} onClick={() => this.checkForThree(this.buyChamp(0))}/>
+            <ChampionTile champion={this.state['store'][1]} onClick={() => this.checkForThree(this.buyChamp(1))}/>
+            <ChampionTile champion={this.state['store'][2]} onClick={() => this.checkForThree(this.buyChamp(2))}/>
+            <ChampionTile champion={this.state['store'][3]} onClick={() => this.checkForThree(this.buyChamp(3))}/>
+            <ChampionTile champion={this.state['store'][4]} onClick={() => this.checkForThree(this.buyChamp(4))}/>
           </div>
           <SellChampButton
             onClick={() => this.sellChamp(this.state.heldChamp)}

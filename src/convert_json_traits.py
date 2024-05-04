@@ -1,4 +1,4 @@
-jsonFile = 'set10raw.json'
+jsonFile = 'json11/en_us.json'
 import json
 newJson = []
 with open(jsonFile) as f:
@@ -7,7 +7,7 @@ with open(jsonFile) as f:
         dict = data1['traits']
         # print(dict)
         for trait in dict:
-            if 'apiName' in trait.keys() and 'name' in trait.keys() and 'Set10_' in trait['apiName']:
+            if 'apiName' in trait.keys() and 'name' in trait.keys() and 'TFT11_' in trait['apiName']:
                 print(trait['name'])
                 trait_cutoffs = []
                 for cutoff in trait['effects']:
@@ -15,5 +15,5 @@ with open(jsonFile) as f:
                 traitDict = {'name': trait['name'], 'cutoffs': trait_cutoffs }
                 newJson.append(traitDict)
 print(newJson)
-with open('json/set10traits.json', 'w') as fout:
+with open('json/set11traits.json', 'w') as fout:
     json.dump(newJson, fout)

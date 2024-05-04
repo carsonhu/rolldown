@@ -10,7 +10,7 @@ export class KeybindMenu extends React.Component {
     } else {
       return (
         <div className="sell-champ-content">
-          <img className="sell-champ-background" src={sellChampBackground}/>
+          <img className="sell-champ-background" src={sellChampBackground} alt="Sell Champ"/>
           <div className="keybind-menu row">
             <div className="keybind-menu-text">Keybinds</div>
             <KeyListener keybindNumber={0}/>

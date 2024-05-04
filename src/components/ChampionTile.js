@@ -36,36 +36,27 @@ export class ChampionTile extends React.Component {
   render() {
     let championName = this.props.champion['name'];
     let championCost = this.props.champion['cost'];
-    let isHeadliner = this.props.isHeadliner;
     let championImagePath = `set${SET}/splash/` + championName.replace(" ", "").replace("'", "").toLowerCase() + ".png";
     // console.log(championImagePath)
     let championTraits = this.props.champion['traits'];
     let tileImagePath = "shop-tile/tile" + championCost + ".png";
-    let headlinerImagePath = "headliner_mask.png"
-    let headlinerIconPath = "headliner_icon.png"
     let traitTexts = [];
     let headlinerImgs = [];
     for(let trait of championTraits) {
       let traitImagePath = `set${SET}/traits/` + trait.toLowerCase().replace(" ", "").replace("-", "").replace("/", "") + ".png";
+
+      // for headliner trait we want to also push a trait icon
+
       traitTexts.push(
         <div key={trait} className="sm-font">
-          <img className="trait-icon" src={images[traitImagePath]}/>
+          <img className="trait-icon" src={images[traitImagePath]} alt="Trait icon" />
           {trait}
         </div>
       );
     }
 
-    if(isHeadliner){
-      headlinerImgs.push(
-      <div>
-      <img className="headliner-mask" src={images[headlinerImagePath]}/>
-      <img className="headliner-icon" src={images[headlinerIconPath]}/>
-      </div>
-      )
-    }
-
     let goldElements = championCost ? (
-      <div className="d-inline sm-font champ-cost"><img className="d-inline gold-icon-sm" src={images['gold.png']}/>{championCost}</div>
+      <div className="d-inline sm-font champ-cost"><img className="d-inline gold-icon-sm" src={images['gold.png']} alt="Gold"/>{championCost}</div>
     ) : "";
     return (
       <div
@@ -74,8 +65,8 @@ export class ChampionTile extends React.Component {
         onMouseLeave={this.handleMouseLeave.bind(this)}
         onClick={this.props.onClick}
       >
-        <img className="champ-pic" src={images[championImagePath]} />
-        <img className="champ-tile-window" src={images[tileImagePath]}/>
+        <img className="champ-pic" src={images[championImagePath]} alt="Champ pic"/>
+        <img className="champ-tile-window" src={images[tileImagePath]} alt="Champ tile"/>
         {headlinerImgs}
         <div className="champ-trait-text">
           {traitTexts}

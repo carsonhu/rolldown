@@ -26,10 +26,10 @@ export function RefreshButton(props) {
       onMouseOver={handleMouseOver}
       onMouseLeave={handleMouseLeave}
     >
-      <img className="left-btn-ui" src={refreshButton} />
+      <img className="left-btn-ui" src={refreshButton} alt="Left button"/>
       <div className="left-btn-text">
         <div className="med-font">Refresh</div>
-        <img className="d-inline gold-icon-sm" src={Gold}/><div className="d-inline sm-font">2</div>
+        <img className="d-inline gold-icon-sm" src={Gold} alt="gold"/><div className="d-inline sm-font">2</div>
       </div>
     </button>
   );

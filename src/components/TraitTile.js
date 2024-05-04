@@ -25,9 +25,9 @@ export class TraitTile extends React.Component {
     let traitTileBackground = `trait_background.png`
     return (
         <div className = "trait-tile">
-        <img src={images[traitTilePath]}/>
-        <img className="trait-image" src={images[traitImagePath]} />
-        <img className="trait-background" src={images[traitTileBackground]} />
+        <img src={images[traitTilePath]} alt="Trait tile"/>
+        <img className="trait-image" src={images[traitImagePath]} alt="trait" />
+        <img className="trait-background" src={images[traitTileBackground]} alt="trait background" />
         <p className="d-inline trait-tile-text">
           {traitName}
         </p>

@@ -1,3 +1,5 @@
+import { Champion } from "./components/Champion.js"
+
 export const XP_THRESH = [-1, -1, 2, 6, 10, 20, 36, 48, 76, 80]
 export const REROLL_ODDS = {
   2: [100, 0, 0, 0, 0],
@@ -40,17 +42,17 @@ export const ROUND_GOLD = {
   1: 2,
   2: 3,
   3: 3,
-  3: 4,
-  4: 5
+  4: 4,
+  5: 5
 }
 export var KEYBINDS = [[70, "Buy XP"], [68, "Reroll"], [69, "Sell Champion"]];
 
-export const SET = 10
+export const SET = 11;
 export default SET;
 
 export const BENCH_SIZE = 36;
 
-const ChampionData = require("./json/set10champions.json");
+const ChampionData = require("./json/set11champions.json");
 export var championPool = {
   1: [],
   2: [],
@@ -58,9 +60,15 @@ export var championPool = {
   4: [],
   5: []
 };
+
+// we want this to be a counter
+// championPool[cost] is a dictionary: str->int
+// champions is a dict str -> int which will be copied from
+
 ChampionData.forEach((champion) => {
   let cost = champion.cost;
   for(let i = 0; i < CHAMPION_TOTAL_AMOUNT[cost]; i++) {
-    championPool[cost].push(champion);
+    let champ = new Champion(champion.name, champion.cost, champion.level, champion.traits, false)
+    championPool[cost].push(champ);
   }
 })

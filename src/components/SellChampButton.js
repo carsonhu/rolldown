@@ -7,7 +7,7 @@ export function SellChampButton(props) {
     return null;
   } else return (
     <div className="sell-champ-content" onClick={props.onClick}>
-      <img className="sell-champ-background" src={sellChampBackground}/>
+      <img className="sell-champ-background" src={sellChampBackground} alt="Sell Button" />
       <h1 className="sell-champ-text">Sell for {props.sellCost} Gold</h1>
     </div>
   );
